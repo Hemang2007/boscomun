@@ -4575,7 +4575,6 @@ var app = (function () {
     	let a3;
     	let t7;
     	let a4;
-    	let div0_class_value;
     	let t9;
     	let div3;
     	let a5;
@@ -4592,7 +4591,6 @@ var app = (function () {
     	let a10;
     	let t21;
     	let a11;
-    	let div2_class_value;
     	let t23;
     	let a12;
     	let t25;
@@ -4671,73 +4669,73 @@ var app = (function () {
     			t31 = space();
     			div7 = element("div");
     			attr_dev(a0, "href", "/");
-    			attr_dev(a0, "class", "svelte-p881p7");
-    			add_location(a0, file$3, 313, 4, 6563);
+    			attr_dev(a0, "class", "svelte-1ch2kci");
+    			add_location(a0, file$3, 245, 4, 4927);
     			attr_dev(a1, "href", "#about");
-    			attr_dev(a1, "class", "dropbtn svelte-p881p7");
-    			add_location(a1, file$3, 315, 6, 6642);
+    			attr_dev(a1, "class", "dropbtn svelte-1ch2kci");
+    			add_location(a1, file$3, 247, 6, 5006);
     			attr_dev(a2, "href", "/about/About1");
-    			attr_dev(a2, "class", "svelte-p881p7");
-    			add_location(a2, file$3, 317, 8, 6791);
+    			attr_dev(a2, "class", "svelte-1ch2kci");
+    			add_location(a2, file$3, 249, 8, 5096);
     			attr_dev(a3, "href", "/about/About2");
-    			attr_dev(a3, "class", "svelte-p881p7");
-    			add_location(a3, file$3, 318, 8, 6866);
+    			attr_dev(a3, "class", "svelte-1ch2kci");
+    			add_location(a3, file$3, 250, 8, 5171);
     			attr_dev(a4, "href", "/about/About3");
-    			attr_dev(a4, "class", "svelte-p881p7");
-    			add_location(a4, file$3, 319, 8, 6954);
-    			attr_dev(div0, "class", div0_class_value = "dropdown-content " + (/*dropdowns*/ ctx[1]['#about'] ? 'show' : '') + " svelte-p881p7");
-    			add_location(div0, file$3, 316, 6, 6715);
-    			attr_dev(div1, "class", "dropdown svelte-p881p7");
-    			add_location(div1, file$3, 314, 4, 6612);
+    			attr_dev(a4, "class", "svelte-1ch2kci");
+    			add_location(a4, file$3, 251, 8, 5259);
+    			attr_dev(div0, "class", "dropdown-content svelte-1ch2kci");
+    			add_location(div0, file$3, 248, 6, 5056);
+    			attr_dev(div1, "class", "dropdown svelte-1ch2kci");
+    			add_location(div1, file$3, 246, 4, 4976);
     			attr_dev(a5, "href", "#committees");
-    			attr_dev(a5, "class", "dropbtn svelte-p881p7");
-    			add_location(a5, file$3, 323, 6, 7101);
+    			attr_dev(a5, "class", "dropbtn svelte-1ch2kci");
+    			add_location(a5, file$3, 255, 6, 5406);
     			attr_dev(a6, "href", "/committees/C1");
-    			attr_dev(a6, "class", "svelte-p881p7");
-    			add_location(a6, file$3, 325, 8, 7265);
+    			attr_dev(a6, "class", "svelte-1ch2kci");
+    			add_location(a6, file$3, 257, 8, 5506);
     			attr_dev(a7, "href", "/committees/C2");
-    			attr_dev(a7, "class", "svelte-p881p7");
-    			add_location(a7, file$3, 326, 8, 7358);
+    			attr_dev(a7, "class", "svelte-1ch2kci");
+    			add_location(a7, file$3, 258, 8, 5599);
     			attr_dev(a8, "href", "/committees/C3");
-    			attr_dev(a8, "class", "svelte-p881p7");
-    			add_location(a8, file$3, 327, 8, 7452);
+    			attr_dev(a8, "class", "svelte-1ch2kci");
+    			add_location(a8, file$3, 259, 8, 5693);
     			attr_dev(a9, "href", "/committees/C4");
-    			attr_dev(a9, "class", "svelte-p881p7");
-    			add_location(a9, file$3, 328, 8, 7537);
+    			attr_dev(a9, "class", "svelte-1ch2kci");
+    			add_location(a9, file$3, 260, 8, 5778);
     			attr_dev(a10, "href", "/committees/C5");
-    			attr_dev(a10, "class", "svelte-p881p7");
-    			add_location(a10, file$3, 329, 8, 7637);
+    			attr_dev(a10, "class", "svelte-1ch2kci");
+    			add_location(a10, file$3, 261, 8, 5878);
     			attr_dev(a11, "href", "/committees/C6");
-    			attr_dev(a11, "class", "svelte-p881p7");
-    			add_location(a11, file$3, 330, 8, 7714);
-    			attr_dev(div2, "class", div2_class_value = "dropdown-content " + (/*dropdowns*/ ctx[1]['#committees'] ? 'show' : '') + " svelte-p881p7");
-    			add_location(div2, file$3, 324, 6, 7184);
-    			attr_dev(div3, "class", "dropdown svelte-p881p7");
-    			add_location(div3, file$3, 322, 4, 7071);
+    			attr_dev(a11, "class", "svelte-1ch2kci");
+    			add_location(a11, file$3, 262, 8, 5955);
+    			attr_dev(div2, "class", "dropdown-content svelte-1ch2kci");
+    			add_location(div2, file$3, 256, 6, 5466);
+    			attr_dev(div3, "class", "dropdown svelte-1ch2kci");
+    			add_location(div3, file$3, 254, 4, 5376);
     			attr_dev(a12, "href", "/Resources");
-    			attr_dev(a12, "class", "svelte-p881p7");
-    			add_location(a12, file$3, 333, 4, 7823);
+    			attr_dev(a12, "class", "svelte-1ch2kci");
+    			add_location(a12, file$3, 265, 4, 6064);
     			attr_dev(a13, "href", "/IndividualRegistration");
-    			attr_dev(a13, "class", "hide-on-mobile svelte-p881p7");
-    			add_location(a13, file$3, 334, 4, 7886);
+    			attr_dev(a13, "class", "hide-on-mobile svelte-1ch2kci");
+    			add_location(a13, file$3, 266, 4, 6127);
     			attr_dev(a14, "href", "/Contactus");
-    			attr_dev(a14, "class", "svelte-p881p7");
-    			add_location(a14, file$3, 335, 4, 7999);
-    			attr_dev(div4, "class", div4_class_value = "menu-items " + (/*showMenu*/ ctx[0] ? 'show' : '') + " svelte-p881p7");
-    			add_location(div4, file$3, 312, 2, 6508);
-    			attr_dev(div5, "class", "svelte-p881p7");
-    			add_location(div5, file$3, 345, 4, 8264);
-    			attr_dev(div6, "class", "svelte-p881p7");
-    			add_location(div6, file$3, 346, 4, 8281);
-    			attr_dev(div7, "class", "svelte-p881p7");
-    			add_location(div7, file$3, 347, 4, 8298);
-    			attr_dev(div8, "class", div8_class_value = "burger-menu " + (/*showMenu*/ ctx[0] ? 'active' : '') + " svelte-p881p7");
+    			attr_dev(a14, "class", "svelte-1ch2kci");
+    			add_location(a14, file$3, 267, 4, 6240);
+    			attr_dev(div4, "class", div4_class_value = "menu-items " + (/*showMenu*/ ctx[0] ? 'show' : '') + " svelte-1ch2kci");
+    			add_location(div4, file$3, 244, 2, 4872);
+    			attr_dev(div5, "class", "svelte-1ch2kci");
+    			add_location(div5, file$3, 277, 4, 6505);
+    			attr_dev(div6, "class", "svelte-1ch2kci");
+    			add_location(div6, file$3, 278, 4, 6522);
+    			attr_dev(div7, "class", "svelte-1ch2kci");
+    			add_location(div7, file$3, 279, 4, 6539);
+    			attr_dev(div8, "class", div8_class_value = "burger-menu " + (/*showMenu*/ ctx[0] ? 'active' : '') + " svelte-1ch2kci");
     			attr_dev(div8, "tabindex", "0");
     			attr_dev(div8, "role", "button");
     			attr_dev(div8, "aria-label", "Toggle menu");
-    			add_location(div8, file$3, 337, 2, 8071);
-    			attr_dev(div9, "class", "navbar svelte-p881p7");
-    			add_location(div9, file$3, 311, 0, 6484);
+    			add_location(div8, file$3, 269, 2, 6312);
+    			attr_dev(div9, "class", "navbar svelte-1ch2kci");
+    			add_location(div9, file$3, 243, 0, 4848);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4788,42 +4786,32 @@ var app = (function () {
 
     			if (!mounted) {
     				dispose = [
-    					listen_dev(a0, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(a1, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(a2, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(a3, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(a4, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(a5, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(a6, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(a7, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(a8, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(a9, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(a10, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(a11, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(a12, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(a13, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(a14, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(div8, "click", /*toggleMenu*/ ctx[3], false, false, false, false),
-    					listen_dev(div8, "keydown", /*handleKeydown*/ ctx[4], false, false, false, false)
+    					listen_dev(a0, "click", /*handleClick*/ ctx[1], false, false, false, false),
+    					listen_dev(a2, "click", /*handleClick*/ ctx[1], false, false, false, false),
+    					listen_dev(a3, "click", /*handleClick*/ ctx[1], false, false, false, false),
+    					listen_dev(a4, "click", /*handleClick*/ ctx[1], false, false, false, false),
+    					listen_dev(a6, "click", /*handleClick*/ ctx[1], false, false, false, false),
+    					listen_dev(a7, "click", /*handleClick*/ ctx[1], false, false, false, false),
+    					listen_dev(a8, "click", /*handleClick*/ ctx[1], false, false, false, false),
+    					listen_dev(a9, "click", /*handleClick*/ ctx[1], false, false, false, false),
+    					listen_dev(a10, "click", /*handleClick*/ ctx[1], false, false, false, false),
+    					listen_dev(a11, "click", /*handleClick*/ ctx[1], false, false, false, false),
+    					listen_dev(a12, "click", /*handleClick*/ ctx[1], false, false, false, false),
+    					listen_dev(a13, "click", /*handleClick*/ ctx[1], false, false, false, false),
+    					listen_dev(a14, "click", /*handleClick*/ ctx[1], false, false, false, false),
+    					listen_dev(div8, "click", /*toggleMenu*/ ctx[2], false, false, false, false),
+    					listen_dev(div8, "keydown", /*handleKeydown*/ ctx[3], false, false, false, false)
     				];
 
     				mounted = true;
     			}
     		},
     		p: function update(ctx, [dirty]) {
-    			if (dirty & /*dropdowns*/ 2 && div0_class_value !== (div0_class_value = "dropdown-content " + (/*dropdowns*/ ctx[1]['#about'] ? 'show' : '') + " svelte-p881p7")) {
-    				attr_dev(div0, "class", div0_class_value);
-    			}
-
-    			if (dirty & /*dropdowns*/ 2 && div2_class_value !== (div2_class_value = "dropdown-content " + (/*dropdowns*/ ctx[1]['#committees'] ? 'show' : '') + " svelte-p881p7")) {
-    				attr_dev(div2, "class", div2_class_value);
-    			}
-
-    			if (dirty & /*showMenu*/ 1 && div4_class_value !== (div4_class_value = "menu-items " + (/*showMenu*/ ctx[0] ? 'show' : '') + " svelte-p881p7")) {
+    			if (dirty & /*showMenu*/ 1 && div4_class_value !== (div4_class_value = "menu-items " + (/*showMenu*/ ctx[0] ? 'show' : '') + " svelte-1ch2kci")) {
     				attr_dev(div4, "class", div4_class_value);
     			}
 
-    			if (dirty & /*showMenu*/ 1 && div8_class_value !== (div8_class_value = "burger-menu " + (/*showMenu*/ ctx[0] ? 'active' : '') + " svelte-p881p7")) {
+    			if (dirty & /*showMenu*/ 1 && div8_class_value !== (div8_class_value = "burger-menu " + (/*showMenu*/ ctx[0] ? 'active' : '') + " svelte-1ch2kci")) {
     				attr_dev(div8, "class", div8_class_value);
     			}
     		},
@@ -4850,56 +4838,20 @@ var app = (function () {
     function instance$3($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Navbar', slots, []);
-    	let showMenu = false;
-    	let dropdowns = { '#about': false, '#committees': false };
 
     	function handleClick(event) {
     		const href = event.currentTarget.getAttribute('href');
-    		const isDropdown = event.currentTarget.classList.contains('dropbtn');
 
-    		if (!isDropdown) {
-    			event.preventDefault();
-
-    			// Close dropdowns when clicking other links
-    			$$invalidate(1, dropdowns = { '#about': false, '#committees': false });
-
-    			if (href.startsWith('http')) {
-    				window.open(href, '_blank');
-    			} else {
-    				navigate(href);
-
-    				if (window.innerWidth <= 768) {
-    					$$invalidate(0, showMenu = false);
-    				}
-    			}
+    		if (href.startsWith('http')) {
+    			window.open(href, '_blank');
     		} else {
     			event.preventDefault();
-    			const dropdownId = event.currentTarget.getAttribute('href');
-
-    			if (window.innerWidth <= 768) {
-    				$$invalidate(1, dropdowns = {
-    					...dropdowns,
-    					[dropdownId]: !dropdowns[dropdownId]
-    				});
-    			} else {
-    				// Toggle dropdown only if menu is closed on larger screens
-    				if (!showMenu) {
-    					$$invalidate(1, dropdowns = {
-    						...dropdowns,
-    						[dropdownId]: !dropdowns[dropdownId]
-    					});
-    				}
-    			}
+    			navigate(href);
     		}
     	}
 
     	function toggleMenu() {
     		$$invalidate(0, showMenu = !showMenu);
-
-    		// Close all dropdowns when opening or closing the menu
-    		if (!showMenu) {
-    			$$invalidate(1, dropdowns = { '#about': false, '#committees': false });
-    		}
     	}
 
     	function handleKeydown(event) {
@@ -4909,21 +4861,7 @@ var app = (function () {
     		}
     	}
 
-    	function handleClickOutside(event) {
-    		if (showMenu && !event.target.closest('.navbar')) {
-    			$$invalidate(0, showMenu = false);
-    			$$invalidate(1, dropdowns = { '#about': false, '#committees': false });
-    		}
-    	}
-
-    	onMount(() => {
-    		document.addEventListener('click', handleClickOutside);
-
-    		return () => {
-    			document.removeEventListener('click', handleClickOutside);
-    		};
-    	});
-
+    	let showMenu = false;
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
@@ -4932,25 +4870,21 @@ var app = (function () {
 
     	$$self.$capture_state = () => ({
     		navigate,
-    		onMount,
-    		showMenu,
-    		dropdowns,
     		handleClick,
     		toggleMenu,
     		handleKeydown,
-    		handleClickOutside
+    		showMenu
     	});
 
     	$$self.$inject_state = $$props => {
     		if ('showMenu' in $$props) $$invalidate(0, showMenu = $$props.showMenu);
-    		if ('dropdowns' in $$props) $$invalidate(1, dropdowns = $$props.dropdowns);
     	};
 
     	if ($$props && "$$inject" in $$props) {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [showMenu, dropdowns, handleClick, toggleMenu, handleKeydown];
+    	return [showMenu, handleClick, toggleMenu, handleKeydown];
     }
 
     class Navbar extends SvelteComponentDev {
