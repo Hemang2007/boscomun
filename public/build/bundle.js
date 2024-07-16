@@ -2864,7 +2864,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (17:6) {#each textContent.split('\n') as paragraph}
+    // (17:4) {#each textContent.split('\n') as paragraph}
     function create_each_block$4(ctx) {
     	let p;
     	let t_value = /*paragraph*/ ctx[2] + "";
@@ -2874,8 +2874,8 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			t = text(t_value);
-    			attr_dev(p, "class", "svelte-98g8bn");
-    			add_location(p, file$a, 17, 8, 877);
+    			attr_dev(p, "class", "svelte-4pyetk");
+    			add_location(p, file$a, 17, 6, 843);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -2891,7 +2891,7 @@ var app = (function () {
     		block,
     		id: create_each_block$4.name,
     		type: "each",
-    		source: "(17:6) {#each textContent.split('\\n') as paragraph}",
+    		source: "(17:4) {#each textContent.split('\\n') as paragraph}",
     		ctx
     	});
 
@@ -2928,14 +2928,14 @@ var app = (function () {
 
     			if (!src_url_equal(img.src, img_src_value = /*imageUrl*/ ctx[0])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Image");
-    			attr_dev(img, "class", "svelte-98g8bn");
-    			add_location(img, file$a, 13, 6, 700);
-    			attr_dev(div0, "class", "image-container svelte-98g8bn");
-    			add_location(div0, file$a, 12, 4, 663);
-    			attr_dev(div1, "class", "text-container svelte-98g8bn");
-    			add_location(div1, file$a, 15, 4, 787);
-    			attr_dev(div2, "class", "container svelte-98g8bn");
-    			add_location(div2, file$a, 11, 2, 634);
+    			attr_dev(img, "class", "svelte-4pyetk");
+    			add_location(img, file$a, 13, 4, 674);
+    			attr_dev(div0, "class", "image-container svelte-4pyetk");
+    			add_location(div0, file$a, 12, 2, 639);
+    			attr_dev(div1, "class", "text-container svelte-4pyetk");
+    			add_location(div1, file$a, 15, 2, 757);
+    			attr_dev(div2, "class", "container svelte-4pyetk");
+    			add_location(div2, file$a, 11, 0, 612);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3010,11 +3010,11 @@ var app = (function () {
     	let imageUrl = '/about1.jpeg';
 
     	let textContent = `
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      `.repeat(10);
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    `.repeat(10);
 
     	const writable_props = [];
 
@@ -3977,10 +3977,10 @@ var app = (function () {
     			t = space();
     			if (!src_url_equal(img.src, img_src_value = /*item*/ ctx[2].img)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Study Guide Poster");
-    			attr_dev(img, "class", "svelte-1nufi93");
-    			add_location(img, file$6, 22, 6, 681);
-    			attr_dev(div, "class", "item svelte-1nufi93");
-    			add_location(div, file$6, 21, 4, 616);
+    			attr_dev(img, "class", "svelte-1jtr140");
+    			add_location(img, file$6, 22, 6, 661);
+    			attr_dev(div, "class", "item svelte-1jtr140");
+    			add_location(div, file$6, 21, 4, 596);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -4036,10 +4036,10 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h1, "class", "gallery-heading svelte-1nufi93");
-    			add_location(h1, file$6, 18, 0, 517);
-    			attr_dev(div, "class", "gallery svelte-1nufi93");
-    			add_location(div, file$6, 19, 0, 564);
+    			attr_dev(h1, "class", "gallery-heading svelte-1jtr140");
+    			add_location(h1, file$6, 18, 0, 497);
+    			attr_dev(div, "class", "gallery svelte-1jtr140");
+    			add_location(div, file$6, 19, 0, 544);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4113,12 +4113,12 @@ var app = (function () {
     	validate_slots('Resources', slots, []);
 
     	let items = [
-    		{ img: '/poster1.png', pdf: '/trial.pdf' },
-    		{ img: '/poster2.png', pdf: '/trial.pdf' },
-    		{ img: '/poster3.png', pdf: '/trial.pdf' },
-    		{ img: '/poster4.png', pdf: '/trial.pdf' },
-    		{ img: '/poster5.png', pdf: '/trial.pdf' },
-    		{ img: '/poster6.png', pdf: '/trial.pdf' }
+    		{ img: '/UNSC.png', pdf: '/trial.pdf' },
+    		{ img: '/AIPPM.png', pdf: '/trial.pdf' },
+    		{ img: '/JSC.png', pdf: '/trial.pdf' },
+    		{ img: '/ASEAN.png', pdf: '/trial.pdf' },
+    		{ img: '/AL.png', pdf: '/trial.pdf' },
+    		{ img: '/IPC.png', pdf: '/trial.pdf' }
     	];
 
     	const writable_props = [];
@@ -4160,9 +4160,9 @@ var app = (function () {
     const file$5 = "src\\Footer.svelte";
 
     function create_fragment$5(ctx) {
-    	let div12;
-    	let div11;
     	let div10;
+    	let div9;
+    	let div8;
     	let div1;
     	let h40;
     	let t1;
@@ -4180,10 +4180,10 @@ var app = (function () {
     	let i2;
     	let t7;
     	let t8;
-    	let div6;
+    	let div4;
     	let h41;
     	let t10;
-    	let div5;
+    	let div3;
     	let div2;
     	let a1;
     	let span0;
@@ -4191,35 +4191,19 @@ var app = (function () {
     	let t11;
     	let span1;
     	let t13;
-    	let div3;
-    	let a2;
-    	let span2;
-    	let i4;
-    	let t14;
-    	let span3;
-    	let t16;
-    	let div4;
-    	let a3;
-    	let span4;
-    	let i5;
-    	let t17;
-    	let span5;
-    	let t19;
-    	let div9;
-    	let h42;
-    	let t21;
-    	let div8;
     	let div7;
+    	let h42;
+    	let t15;
+    	let div6;
+    	let div5;
     	let iframe;
     	let iframe_src_value;
-    	let t22;
-    	let link;
 
     	const block = {
     		c: function create() {
-    			div12 = element("div");
-    			div11 = element("div");
     			div10 = element("div");
+    			div9 = element("div");
+    			div8 = element("div");
     			div1 = element("div");
     			h40 = element("h4");
     			h40.textContent = "Contact us:";
@@ -4233,17 +4217,17 @@ var app = (function () {
     			i1 = element("i");
     			t4 = space();
     			a0 = element("a");
-    			a0.textContent = "home.boscofest@gmail.com";
+    			a0.textContent = "home.boscomun@gmail.com";
     			t6 = space();
     			p2 = element("p");
     			i2 = element("i");
     			t7 = text(" Address: 23, Darga Rd, Park Circus, Beniapukur, Kolkata, West Bengal 700017");
     			t8 = space();
-    			div6 = element("div");
+    			div4 = element("div");
     			h41 = element("h4");
     			h41.textContent = "Connect On:";
     			t10 = space();
-    			div5 = element("div");
+    			div3 = element("div");
     			div2 = element("div");
     			a1 = element("a");
     			span0 = element("span");
@@ -4252,128 +4236,84 @@ var app = (function () {
     			span1 = element("span");
     			span1.textContent = "Instagram";
     			t13 = space();
-    			div3 = element("div");
-    			a2 = element("a");
-    			span2 = element("span");
-    			i4 = element("i");
-    			t14 = space();
-    			span3 = element("span");
-    			span3.textContent = "Facebook";
-    			t16 = space();
-    			div4 = element("div");
-    			a3 = element("a");
-    			span4 = element("span");
-    			i5 = element("i");
-    			t17 = space();
-    			span5 = element("span");
-    			span5.textContent = "YouTube";
-    			t19 = space();
-    			div9 = element("div");
+    			div7 = element("div");
     			h42 = element("h4");
     			h42.textContent = "Locate us:";
-    			t21 = space();
-    			div8 = element("div");
-    			div7 = element("div");
+    			t15 = space();
+    			div6 = element("div");
+    			div5 = element("div");
     			iframe = element("iframe");
-    			t22 = space();
-    			link = element("link");
-    			attr_dev(h40, "class", "text-white mb-4 svelte-pwqb3k");
-    			add_location(h40, file$5, 86, 10, 1514);
+    			attr_dev(h40, "class", "text-white mb-4 svelte-1129b3c");
+    			add_location(h40, file$5, 108, 8, 1708);
     			attr_dev(i0, "class", "fas fa-phone-alt");
-    			add_location(i0, file$5, 89, 14, 1640);
-    			attr_dev(p0, "class", "text-white svelte-pwqb3k");
-    			add_location(p0, file$5, 88, 12, 1602);
+    			add_location(i0, file$5, 111, 12, 1828);
+    			attr_dev(p0, "class", "text-white svelte-1129b3c");
+    			add_location(p0, file$5, 110, 10, 1792);
     			attr_dev(i1, "class", "fas fa-envelope");
-    			add_location(i1, file$5, 92, 14, 1766);
-    			attr_dev(a0, "href", "mailto:home.boscofest@gmail.com");
-    			add_location(a0, file$5, 93, 14, 1813);
-    			attr_dev(p1, "class", "text-white svelte-pwqb3k");
-    			add_location(p1, file$5, 91, 12, 1728);
+    			add_location(i1, file$5, 114, 12, 1948);
+    			attr_dev(a0, "href", "mailto:home.boscomun@gmail.com");
+    			attr_dev(a0, "class", "text-white svelte-1129b3c");
+    			add_location(a0, file$5, 115, 12, 1993);
+    			attr_dev(p1, "class", "text-white svelte-1129b3c");
+    			add_location(p1, file$5, 113, 10, 1912);
     			attr_dev(i2, "class", "fas fa-map-marker-alt");
-    			add_location(i2, file$5, 96, 14, 1953);
-    			attr_dev(p2, "class", "text-white svelte-pwqb3k");
-    			add_location(p2, file$5, 95, 12, 1915);
-    			attr_dev(div0, "class", "mt-4 svelte-pwqb3k");
-    			add_location(div0, file$5, 87, 10, 1570);
-    			attr_dev(div1, "class", "col svelte-pwqb3k");
-    			add_location(div1, file$5, 85, 8, 1485);
-    			attr_dev(h41, "class", "text-white mb-4 svelte-pwqb3k");
-    			add_location(h41, file$5, 102, 10, 2161);
+    			add_location(i2, file$5, 118, 12, 2144);
+    			attr_dev(p2, "class", "text-white svelte-1129b3c");
+    			add_location(p2, file$5, 117, 10, 2108);
+    			attr_dev(div0, "class", "mt-4 svelte-1129b3c");
+    			add_location(div0, file$5, 109, 8, 1762);
+    			attr_dev(div1, "class", "col svelte-1129b3c");
+    			add_location(div1, file$5, 107, 6, 1681);
+    			attr_dev(h41, "class", "text-white mb-4 svelte-1129b3c");
+    			add_location(h41, file$5, 124, 8, 2340);
     			attr_dev(i3, "class", "fab fa-instagram");
-    			add_location(i3, file$5, 106, 55, 2495);
-    			attr_dev(span0, "class", "elementor-icon-list-icon svelte-pwqb3k");
-    			add_location(span0, file$5, 106, 16, 2456);
-    			attr_dev(span1, "class", "elementor-icon-list-text svelte-pwqb3k");
-    			add_location(span1, file$5, 107, 16, 2552);
-    			attr_dev(a1, "href", "https://www.instagram.com/boscofest24");
+    			add_location(i3, file$5, 128, 53, 2667);
+    			attr_dev(span0, "class", "elementor-icon-list-icon svelte-1129b3c");
+    			add_location(span0, file$5, 128, 14, 2628);
+    			attr_dev(span1, "class", "elementor-icon-list-text svelte-1129b3c");
+    			add_location(span1, file$5, 129, 14, 2722);
+    			attr_dev(a1, "href", "https://www.instagram.com/boscomun2024");
     			attr_dev(a1, "target", "_blank");
-    			attr_dev(a1, "class", "svelte-pwqb3k");
-    			add_location(a1, file$5, 105, 14, 2374);
-    			attr_dev(div2, "class", "elementor-icon-list-item elementor-inline-item mb-4 svelte-pwqb3k");
-    			add_location(div2, file$5, 104, 12, 2293);
-    			attr_dev(i4, "class", "fab fa-facebook");
-    			add_location(i4, file$5, 112, 55, 2900);
-    			attr_dev(span2, "class", "elementor-icon-list-icon svelte-pwqb3k");
-    			add_location(span2, file$5, 112, 16, 2861);
-    			attr_dev(span3, "class", "elementor-icon-list-text svelte-pwqb3k");
-    			add_location(span3, file$5, 113, 16, 2956);
-    			attr_dev(a2, "href", "https://www.facebook.com/profile.php?id=61561128274232&mibextid=ZbWKwL");
-    			attr_dev(a2, "target", "_blank");
-    			attr_dev(a2, "class", "svelte-pwqb3k");
-    			add_location(a2, file$5, 111, 14, 2742);
-    			attr_dev(div3, "class", "elementor-icon-list-item elementor-inline-item mb-4 svelte-pwqb3k");
-    			add_location(div3, file$5, 110, 12, 2661);
-    			attr_dev(i5, "class", "fab fa-youtube");
-    			add_location(i5, file$5, 118, 55, 3286);
-    			attr_dev(span4, "class", "elementor-icon-list-icon svelte-pwqb3k");
-    			add_location(span4, file$5, 118, 16, 3247);
-    			attr_dev(span5, "class", "elementor-icon-list-text svelte-pwqb3k");
-    			add_location(span5, file$5, 119, 16, 3341);
-    			attr_dev(a3, "href", "https://www.youtube.com/@donboscoschoolparkcircus1452/featured");
-    			attr_dev(a3, "target", "_blank");
-    			attr_dev(a3, "class", "svelte-pwqb3k");
-    			add_location(a3, file$5, 117, 14, 3140);
-    			attr_dev(div4, "class", "elementor-icon-list-item elementor-inline-item svelte-pwqb3k");
-    			add_location(div4, file$5, 116, 12, 3064);
-    			attr_dev(div5, "class", "elementor-icon-list-items elementor-inline-items");
-    			add_location(div5, file$5, 103, 10, 2217);
-    			attr_dev(div6, "class", "col svelte-pwqb3k");
-    			add_location(div6, file$5, 101, 8, 2132);
-    			attr_dev(h42, "class", "text-white mb-4 svelte-pwqb3k");
-    			add_location(h42, file$5, 126, 10, 3511);
+    			attr_dev(a1, "class", "svelte-1129b3c");
+    			add_location(a1, file$5, 127, 12, 2547);
+    			attr_dev(div2, "class", "elementor-icon-list-item elementor-inline-item mb-4 svelte-1129b3c");
+    			add_location(div2, file$5, 126, 10, 2468);
+    			attr_dev(div3, "class", "elementor-icon-list-items elementor-inline-items");
+    			add_location(div3, file$5, 125, 8, 2394);
+    			attr_dev(div4, "class", "col svelte-1129b3c");
+    			add_location(div4, file$5, 123, 6, 2313);
+    			attr_dev(h42, "class", "text-white mb-4 svelte-1129b3c");
+    			add_location(h42, file$5, 136, 8, 2880);
     			attr_dev(iframe, "width", "100%");
-    			attr_dev(iframe, "height", "215");
+    			attr_dev(iframe, "height", "100%");
     			attr_dev(iframe, "id", "gmap_canvas");
     			if (!src_url_equal(iframe.src, iframe_src_value = "https://maps.google.com/maps?q=Don+Bosco+School+Park+Circus&t=&z=13&ie=UTF8&iwloc=&output=embed")) attr_dev(iframe, "src", iframe_src_value);
     			attr_dev(iframe, "frameborder", "0");
     			attr_dev(iframe, "scrolling", "no");
     			attr_dev(iframe, "marginheight", "0");
     			attr_dev(iframe, "marginwidth", "0");
-    			add_location(iframe, file$5, 129, 14, 3643);
-    			attr_dev(div7, "class", "gmap_canvas svelte-pwqb3k");
-    			add_location(div7, file$5, 128, 12, 3602);
-    			attr_dev(div8, "class", "mapouter svelte-pwqb3k");
-    			add_location(div8, file$5, 127, 10, 3566);
-    			attr_dev(div9, "class", "col svelte-pwqb3k");
-    			add_location(div9, file$5, 125, 8, 3482);
-    			attr_dev(div10, "class", "row svelte-pwqb3k");
-    			add_location(div10, file$5, 84, 6, 1458);
-    			attr_dev(div11, "class", "container svelte-pwqb3k");
-    			add_location(div11, file$5, 83, 4, 1427);
-    			attr_dev(div12, "class", "footer svelte-pwqb3k");
-    			add_location(div12, file$5, 82, 2, 1401);
-    			attr_dev(link, "rel", "stylesheet");
-    			attr_dev(link, "href", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
-    			add_location(link, file$5, 137, 2, 3987);
+    			add_location(iframe, file$5, 139, 12, 3006);
+    			attr_dev(div5, "class", "gmap_canvas svelte-1129b3c");
+    			add_location(div5, file$5, 138, 10, 2967);
+    			attr_dev(div6, "class", "mapouter svelte-1129b3c");
+    			add_location(div6, file$5, 137, 8, 2933);
+    			attr_dev(div7, "class", "col svelte-1129b3c");
+    			add_location(div7, file$5, 135, 6, 2853);
+    			attr_dev(div8, "class", "row svelte-1129b3c");
+    			add_location(div8, file$5, 106, 4, 1656);
+    			attr_dev(div9, "class", "container svelte-1129b3c");
+    			add_location(div9, file$5, 105, 2, 1627);
+    			attr_dev(div10, "class", "footer svelte-1129b3c");
+    			add_location(div10, file$5, 104, 0, 1603);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div12, anchor);
-    			append_dev(div12, div11);
-    			append_dev(div11, div10);
-    			append_dev(div10, div1);
+    			insert_dev(target, div10, anchor);
+    			append_dev(div10, div9);
+    			append_dev(div9, div8);
+    			append_dev(div8, div1);
     			append_dev(div1, h40);
     			append_dev(div1, t1);
     			append_dev(div1, div0);
@@ -4389,48 +4329,30 @@ var app = (function () {
     			append_dev(div0, p2);
     			append_dev(p2, i2);
     			append_dev(p2, t7);
-    			append_dev(div10, t8);
-    			append_dev(div10, div6);
-    			append_dev(div6, h41);
-    			append_dev(div6, t10);
-    			append_dev(div6, div5);
-    			append_dev(div5, div2);
+    			append_dev(div8, t8);
+    			append_dev(div8, div4);
+    			append_dev(div4, h41);
+    			append_dev(div4, t10);
+    			append_dev(div4, div3);
+    			append_dev(div3, div2);
     			append_dev(div2, a1);
     			append_dev(a1, span0);
     			append_dev(span0, i3);
     			append_dev(a1, t11);
     			append_dev(a1, span1);
-    			append_dev(div5, t13);
-    			append_dev(div5, div3);
-    			append_dev(div3, a2);
-    			append_dev(a2, span2);
-    			append_dev(span2, i4);
-    			append_dev(a2, t14);
-    			append_dev(a2, span3);
-    			append_dev(div5, t16);
-    			append_dev(div5, div4);
-    			append_dev(div4, a3);
-    			append_dev(a3, span4);
-    			append_dev(span4, i5);
-    			append_dev(a3, t17);
-    			append_dev(a3, span5);
-    			append_dev(div10, t19);
-    			append_dev(div10, div9);
-    			append_dev(div9, h42);
-    			append_dev(div9, t21);
-    			append_dev(div9, div8);
+    			append_dev(div8, t13);
     			append_dev(div8, div7);
-    			append_dev(div7, iframe);
-    			insert_dev(target, t22, anchor);
-    			insert_dev(target, link, anchor);
+    			append_dev(div7, h42);
+    			append_dev(div7, t15);
+    			append_dev(div7, div6);
+    			append_dev(div6, div5);
+    			append_dev(div5, iframe);
     		},
     		p: noop,
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div12);
-    			if (detaching) detach_dev(t22);
-    			if (detaching) detach_dev(link);
+    			if (detaching) detach_dev(div10);
     		}
     	};
 
@@ -4531,28 +4453,28 @@ var app = (function () {
     			p6.textContent = "Hemang Domadia";
     			t17 = space();
     			create_component(footer.$$.fragment);
-    			attr_dev(h20, "class", "svelte-1sgtsog");
-    			add_location(h20, file$4, 67, 8, 1308);
-    			attr_dev(p0, "class", "svelte-1sgtsog");
-    			add_location(p0, file$4, 68, 8, 1337);
-    			attr_dev(p1, "class", "svelte-1sgtsog");
-    			add_location(p1, file$4, 69, 8, 1369);
-    			attr_dev(h21, "class", "svelte-1sgtsog");
-    			add_location(h21, file$4, 70, 8, 1404);
-    			attr_dev(p2, "class", "svelte-1sgtsog");
-    			add_location(p2, file$4, 71, 8, 1431);
-    			attr_dev(p3, "class", "svelte-1sgtsog");
-    			add_location(p3, file$4, 72, 8, 1462);
-    			attr_dev(p4, "class", "svelte-1sgtsog");
-    			add_location(p4, file$4, 73, 8, 1493);
-    			attr_dev(p5, "class", "svelte-1sgtsog");
-    			add_location(p5, file$4, 74, 8, 1524);
-    			attr_dev(p6, "class", "svelte-1sgtsog");
-    			add_location(p6, file$4, 75, 8, 1555);
-    			attr_dev(div0, "class", "contact-details svelte-1sgtsog");
-    			add_location(div0, file$4, 66, 4, 1269);
-    			attr_dev(div1, "class", "contact-us-container svelte-1sgtsog");
-    			add_location(div1, file$4, 65, 0, 1229);
+    			attr_dev(h20, "class", "svelte-p7wygt");
+    			add_location(h20, file$4, 63, 8, 1314);
+    			attr_dev(p0, "class", "svelte-p7wygt");
+    			add_location(p0, file$4, 64, 8, 1343);
+    			attr_dev(p1, "class", "svelte-p7wygt");
+    			add_location(p1, file$4, 65, 8, 1375);
+    			attr_dev(h21, "class", "svelte-p7wygt");
+    			add_location(h21, file$4, 66, 8, 1410);
+    			attr_dev(p2, "class", "svelte-p7wygt");
+    			add_location(p2, file$4, 67, 8, 1437);
+    			attr_dev(p3, "class", "svelte-p7wygt");
+    			add_location(p3, file$4, 68, 8, 1468);
+    			attr_dev(p4, "class", "svelte-p7wygt");
+    			add_location(p4, file$4, 69, 8, 1499);
+    			attr_dev(p5, "class", "svelte-p7wygt");
+    			add_location(p5, file$4, 70, 8, 1530);
+    			attr_dev(p6, "class", "svelte-p7wygt");
+    			add_location(p6, file$4, 71, 8, 1561);
+    			attr_dev(div0, "class", "contact-details svelte-p7wygt");
+    			add_location(div0, file$4, 62, 4, 1275);
+    			attr_dev(div1, "class", "contact-us-container svelte-p7wygt");
+    			add_location(div1, file$4, 61, 0, 1235);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4641,54 +4563,50 @@ var app = (function () {
 
     function create_fragment$3(ctx) {
     	let div9;
+    	let div4;
     	let a0;
-    	let img;
-    	let img_src_value;
-    	let t0;
-    	let div3;
-    	let div0;
     	let t1;
     	let div1;
-    	let t2;
-    	let div2;
-    	let div3_class_value;
-    	let t3;
-    	let div8;
     	let a1;
-    	let t5;
-    	let div5;
+    	let t3;
+    	let div0;
     	let a2;
-    	let t7;
-    	let div4;
+    	let t5;
     	let a3;
-    	let t9;
+    	let t7;
     	let a4;
-    	let t11;
+    	let div0_class_value;
+    	let t9;
+    	let div3;
     	let a5;
-    	let div4_class_value;
-    	let t13;
-    	let div7;
+    	let t11;
+    	let div2;
     	let a6;
-    	let t15;
-    	let div6;
+    	let t13;
     	let a7;
-    	let t17;
+    	let t15;
     	let a8;
-    	let t19;
+    	let t17;
     	let a9;
-    	let t21;
+    	let t19;
     	let a10;
-    	let t23;
+    	let t21;
     	let a11;
-    	let t25;
+    	let div2_class_value;
+    	let t23;
     	let a12;
-    	let div6_class_value;
-    	let t27;
+    	let t25;
     	let a13;
-    	let t29;
+    	let t27;
     	let a14;
+    	let div4_class_value;
+    	let t29;
+    	let div8;
+    	let div5;
+    	let t30;
+    	let div6;
     	let t31;
-    	let a15;
+    	let div7;
     	let div8_class_value;
     	let mounted;
     	let dispose;
@@ -4696,196 +4614,181 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			div9 = element("div");
+    			div4 = element("div");
     			a0 = element("a");
-    			img = element("img");
-    			t0 = space();
-    			div3 = element("div");
-    			div0 = element("div");
+    			a0.textContent = "Home";
     			t1 = space();
     			div1 = element("div");
-    			t2 = space();
-    			div2 = element("div");
-    			t3 = space();
-    			div8 = element("div");
     			a1 = element("a");
-    			a1.textContent = "Home";
-    			t5 = space();
-    			div5 = element("div");
+    			a1.textContent = "About";
+    			t3 = space();
+    			div0 = element("div");
     			a2 = element("a");
-    			a2.textContent = "About";
-    			t7 = space();
-    			div4 = element("div");
+    			a2.textContent = "About BoscoMUN";
+    			t5 = space();
     			a3 = element("a");
-    			a3.textContent = "About BoscoMUN";
-    			t9 = space();
+    			a3.textContent = "Secretary General's Message";
+    			t7 = space();
     			a4 = element("a");
-    			a4.textContent = "Secretary General's Message";
-    			t11 = space();
+    			a4.textContent = "Deputy Secretary General's Message";
+    			t9 = space();
+    			div3 = element("div");
     			a5 = element("a");
-    			a5.textContent = "Deputy Secretary General's Message";
-    			t13 = space();
-    			div7 = element("div");
+    			a5.textContent = "Committees";
+    			t11 = space();
+    			div2 = element("div");
     			a6 = element("a");
-    			a6.textContent = "Committees";
-    			t15 = space();
-    			div6 = element("div");
+    			a6.textContent = "United Nations Security Council";
+    			t13 = space();
     			a7 = element("a");
-    			a7.textContent = "United Nations Security Council";
-    			t17 = space();
+    			a7.textContent = "All India Political Parties Meet";
+    			t15 = space();
     			a8 = element("a");
-    			a8.textContent = "All India Political Parties Meet";
-    			t19 = space();
+    			a8.textContent = "Joseph Stalin’s Cabinet";
+    			t17 = space();
     			a9 = element("a");
-    			a9.textContent = "Joseph Stalin’s Cabinet";
-    			t21 = space();
+    			a9.textContent = "Association of Southeast Asian Nations";
+    			t19 = space();
     			a10 = element("a");
-    			a10.textContent = "Association of Southeast Asian Nations";
-    			t23 = space();
+    			a10.textContent = "The Arab League";
+    			t21 = space();
     			a11 = element("a");
-    			a11.textContent = "The Arab League";
-    			t25 = space();
+    			a11.textContent = "International Press Corps";
+    			t23 = space();
     			a12 = element("a");
-    			a12.textContent = "International Press Corps";
-    			t27 = space();
+    			a12.textContent = "Resources";
+    			t25 = space();
     			a13 = element("a");
-    			a13.textContent = "Resources";
-    			t29 = space();
+    			a13.textContent = "Individual Registration";
+    			t27 = space();
     			a14 = element("a");
-    			a14.textContent = "Individual Registration";
+    			a14.textContent = "Contact Us";
+    			t29 = space();
+    			div8 = element("div");
+    			div5 = element("div");
+    			t30 = space();
+    			div6 = element("div");
     			t31 = space();
-    			a15 = element("a");
-    			a15.textContent = "Contact Us";
-    			if (!src_url_equal(img.src, img_src_value = "/munlogo.png")) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "alt", "Logo");
-    			attr_dev(img, "class", "svelte-1stn4en");
-    			add_location(img, file$3, 278, 4, 5796);
+    			div7 = element("div");
     			attr_dev(a0, "href", "/");
-    			attr_dev(a0, "class", "svelte-1stn4en");
-    			add_location(a0, file$3, 277, 2, 5755);
-    			attr_dev(div0, "class", "svelte-1stn4en");
-    			add_location(div0, file$3, 288, 4, 6042);
-    			attr_dev(div1, "class", "svelte-1stn4en");
-    			add_location(div1, file$3, 289, 4, 6059);
-    			attr_dev(div2, "class", "svelte-1stn4en");
-    			add_location(div2, file$3, 290, 4, 6076);
-    			attr_dev(div3, "class", div3_class_value = "burger-menu " + (/*showMenu*/ ctx[0] ? 'active' : '') + " svelte-1stn4en");
-    			attr_dev(div3, "tabindex", "0");
-    			attr_dev(div3, "role", "button");
-    			attr_dev(div3, "aria-label", "Toggle menu");
-    			add_location(div3, file$3, 280, 2, 5843);
-    			attr_dev(a1, "href", "/");
-    			attr_dev(a1, "class", "svelte-1stn4en");
-    			add_location(a1, file$3, 293, 4, 6156);
-    			attr_dev(a2, "href", "#about");
-    			attr_dev(a2, "class", "dropbtn svelte-1stn4en");
-    			add_location(a2, file$3, 295, 6, 6235);
-    			attr_dev(a3, "href", "/about/About1");
-    			attr_dev(a3, "class", "svelte-1stn4en");
-    			add_location(a3, file$3, 297, 8, 6384);
-    			attr_dev(a4, "href", "/about/About2");
-    			attr_dev(a4, "class", "svelte-1stn4en");
-    			add_location(a4, file$3, 298, 8, 6459);
-    			attr_dev(a5, "href", "/about/About3");
-    			attr_dev(a5, "class", "svelte-1stn4en");
-    			add_location(a5, file$3, 299, 8, 6547);
-    			attr_dev(div4, "class", div4_class_value = "dropdown-content " + (/*dropdowns*/ ctx[1]['#about'] ? 'show' : '') + " svelte-1stn4en");
-    			add_location(div4, file$3, 296, 6, 6308);
-    			attr_dev(div5, "class", "dropdown svelte-1stn4en");
-    			add_location(div5, file$3, 294, 4, 6205);
-    			attr_dev(a6, "href", "#committees");
-    			attr_dev(a6, "class", "dropbtn svelte-1stn4en");
-    			add_location(a6, file$3, 303, 6, 6694);
-    			attr_dev(a7, "href", "/committees/C1");
-    			attr_dev(a7, "class", "svelte-1stn4en");
-    			add_location(a7, file$3, 305, 8, 6858);
-    			attr_dev(a8, "href", "/committees/C2");
-    			attr_dev(a8, "class", "svelte-1stn4en");
-    			add_location(a8, file$3, 306, 8, 6951);
-    			attr_dev(a9, "href", "/committees/C3");
-    			attr_dev(a9, "class", "svelte-1stn4en");
-    			add_location(a9, file$3, 307, 8, 7045);
-    			attr_dev(a10, "href", "/committees/C4");
-    			attr_dev(a10, "class", "svelte-1stn4en");
-    			add_location(a10, file$3, 308, 8, 7130);
-    			attr_dev(a11, "href", "/committees/C5");
-    			attr_dev(a11, "class", "svelte-1stn4en");
-    			add_location(a11, file$3, 309, 8, 7230);
-    			attr_dev(a12, "href", "/committees/C6");
-    			attr_dev(a12, "class", "svelte-1stn4en");
-    			add_location(a12, file$3, 310, 8, 7307);
-    			attr_dev(div6, "class", div6_class_value = "dropdown-content " + (/*dropdowns*/ ctx[1]['#committees'] ? 'show' : '') + " svelte-1stn4en");
-    			add_location(div6, file$3, 304, 6, 6777);
-    			attr_dev(div7, "class", "dropdown svelte-1stn4en");
-    			add_location(div7, file$3, 302, 4, 6664);
-    			attr_dev(a13, "href", "/Resources");
-    			attr_dev(a13, "class", "svelte-1stn4en");
-    			add_location(a13, file$3, 313, 4, 7416);
-    			attr_dev(a14, "href", "/IndividualRegistration");
-    			attr_dev(a14, "class", "hide-on-mobile svelte-1stn4en");
-    			add_location(a14, file$3, 314, 4, 7479);
-    			attr_dev(a15, "href", "/Contactus");
-    			attr_dev(a15, "class", "svelte-1stn4en");
-    			add_location(a15, file$3, 315, 4, 7592);
-    			attr_dev(div8, "class", div8_class_value = "menu-items " + (/*showMenu*/ ctx[0] ? 'show' : '') + " svelte-1stn4en");
-    			add_location(div8, file$3, 292, 2, 6101);
-    			attr_dev(div9, "class", "navbar svelte-1stn4en");
-    			add_location(div9, file$3, 276, 0, 5731);
+    			attr_dev(a0, "class", "svelte-p881p7");
+    			add_location(a0, file$3, 313, 4, 6563);
+    			attr_dev(a1, "href", "#about");
+    			attr_dev(a1, "class", "dropbtn svelte-p881p7");
+    			add_location(a1, file$3, 315, 6, 6642);
+    			attr_dev(a2, "href", "/about/About1");
+    			attr_dev(a2, "class", "svelte-p881p7");
+    			add_location(a2, file$3, 317, 8, 6791);
+    			attr_dev(a3, "href", "/about/About2");
+    			attr_dev(a3, "class", "svelte-p881p7");
+    			add_location(a3, file$3, 318, 8, 6866);
+    			attr_dev(a4, "href", "/about/About3");
+    			attr_dev(a4, "class", "svelte-p881p7");
+    			add_location(a4, file$3, 319, 8, 6954);
+    			attr_dev(div0, "class", div0_class_value = "dropdown-content " + (/*dropdowns*/ ctx[1]['#about'] ? 'show' : '') + " svelte-p881p7");
+    			add_location(div0, file$3, 316, 6, 6715);
+    			attr_dev(div1, "class", "dropdown svelte-p881p7");
+    			add_location(div1, file$3, 314, 4, 6612);
+    			attr_dev(a5, "href", "#committees");
+    			attr_dev(a5, "class", "dropbtn svelte-p881p7");
+    			add_location(a5, file$3, 323, 6, 7101);
+    			attr_dev(a6, "href", "/committees/C1");
+    			attr_dev(a6, "class", "svelte-p881p7");
+    			add_location(a6, file$3, 325, 8, 7265);
+    			attr_dev(a7, "href", "/committees/C2");
+    			attr_dev(a7, "class", "svelte-p881p7");
+    			add_location(a7, file$3, 326, 8, 7358);
+    			attr_dev(a8, "href", "/committees/C3");
+    			attr_dev(a8, "class", "svelte-p881p7");
+    			add_location(a8, file$3, 327, 8, 7452);
+    			attr_dev(a9, "href", "/committees/C4");
+    			attr_dev(a9, "class", "svelte-p881p7");
+    			add_location(a9, file$3, 328, 8, 7537);
+    			attr_dev(a10, "href", "/committees/C5");
+    			attr_dev(a10, "class", "svelte-p881p7");
+    			add_location(a10, file$3, 329, 8, 7637);
+    			attr_dev(a11, "href", "/committees/C6");
+    			attr_dev(a11, "class", "svelte-p881p7");
+    			add_location(a11, file$3, 330, 8, 7714);
+    			attr_dev(div2, "class", div2_class_value = "dropdown-content " + (/*dropdowns*/ ctx[1]['#committees'] ? 'show' : '') + " svelte-p881p7");
+    			add_location(div2, file$3, 324, 6, 7184);
+    			attr_dev(div3, "class", "dropdown svelte-p881p7");
+    			add_location(div3, file$3, 322, 4, 7071);
+    			attr_dev(a12, "href", "/Resources");
+    			attr_dev(a12, "class", "svelte-p881p7");
+    			add_location(a12, file$3, 333, 4, 7823);
+    			attr_dev(a13, "href", "/IndividualRegistration");
+    			attr_dev(a13, "class", "hide-on-mobile svelte-p881p7");
+    			add_location(a13, file$3, 334, 4, 7886);
+    			attr_dev(a14, "href", "/Contactus");
+    			attr_dev(a14, "class", "svelte-p881p7");
+    			add_location(a14, file$3, 335, 4, 7999);
+    			attr_dev(div4, "class", div4_class_value = "menu-items " + (/*showMenu*/ ctx[0] ? 'show' : '') + " svelte-p881p7");
+    			add_location(div4, file$3, 312, 2, 6508);
+    			attr_dev(div5, "class", "svelte-p881p7");
+    			add_location(div5, file$3, 345, 4, 8264);
+    			attr_dev(div6, "class", "svelte-p881p7");
+    			add_location(div6, file$3, 346, 4, 8281);
+    			attr_dev(div7, "class", "svelte-p881p7");
+    			add_location(div7, file$3, 347, 4, 8298);
+    			attr_dev(div8, "class", div8_class_value = "burger-menu " + (/*showMenu*/ ctx[0] ? 'active' : '') + " svelte-p881p7");
+    			attr_dev(div8, "tabindex", "0");
+    			attr_dev(div8, "role", "button");
+    			attr_dev(div8, "aria-label", "Toggle menu");
+    			add_location(div8, file$3, 337, 2, 8071);
+    			attr_dev(div9, "class", "navbar svelte-p881p7");
+    			add_location(div9, file$3, 311, 0, 6484);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div9, anchor);
-    			append_dev(div9, a0);
-    			append_dev(a0, img);
-    			append_dev(div9, t0);
-    			append_dev(div9, div3);
-    			append_dev(div3, div0);
-    			append_dev(div3, t1);
-    			append_dev(div3, div1);
-    			append_dev(div3, t2);
-    			append_dev(div3, div2);
-    			append_dev(div9, t3);
-    			append_dev(div9, div8);
-    			append_dev(div8, a1);
-    			append_dev(div8, t5);
-    			append_dev(div8, div5);
-    			append_dev(div5, a2);
-    			append_dev(div5, t7);
-    			append_dev(div5, div4);
-    			append_dev(div4, a3);
+    			append_dev(div9, div4);
+    			append_dev(div4, a0);
+    			append_dev(div4, t1);
+    			append_dev(div4, div1);
+    			append_dev(div1, a1);
+    			append_dev(div1, t3);
+    			append_dev(div1, div0);
+    			append_dev(div0, a2);
+    			append_dev(div0, t5);
+    			append_dev(div0, a3);
+    			append_dev(div0, t7);
+    			append_dev(div0, a4);
     			append_dev(div4, t9);
-    			append_dev(div4, a4);
-    			append_dev(div4, t11);
-    			append_dev(div4, a5);
-    			append_dev(div8, t13);
-    			append_dev(div8, div7);
-    			append_dev(div7, a6);
-    			append_dev(div7, t15);
-    			append_dev(div7, div6);
-    			append_dev(div6, a7);
-    			append_dev(div6, t17);
-    			append_dev(div6, a8);
-    			append_dev(div6, t19);
-    			append_dev(div6, a9);
-    			append_dev(div6, t21);
-    			append_dev(div6, a10);
-    			append_dev(div6, t23);
-    			append_dev(div6, a11);
-    			append_dev(div6, t25);
-    			append_dev(div6, a12);
-    			append_dev(div8, t27);
-    			append_dev(div8, a13);
-    			append_dev(div8, t29);
-    			append_dev(div8, a14);
+    			append_dev(div4, div3);
+    			append_dev(div3, a5);
+    			append_dev(div3, t11);
+    			append_dev(div3, div2);
+    			append_dev(div2, a6);
+    			append_dev(div2, t13);
+    			append_dev(div2, a7);
+    			append_dev(div2, t15);
+    			append_dev(div2, a8);
+    			append_dev(div2, t17);
+    			append_dev(div2, a9);
+    			append_dev(div2, t19);
+    			append_dev(div2, a10);
+    			append_dev(div2, t21);
+    			append_dev(div2, a11);
+    			append_dev(div4, t23);
+    			append_dev(div4, a12);
+    			append_dev(div4, t25);
+    			append_dev(div4, a13);
+    			append_dev(div4, t27);
+    			append_dev(div4, a14);
+    			append_dev(div9, t29);
+    			append_dev(div9, div8);
+    			append_dev(div8, div5);
+    			append_dev(div8, t30);
+    			append_dev(div8, div6);
     			append_dev(div8, t31);
-    			append_dev(div8, a15);
+    			append_dev(div8, div7);
 
     			if (!mounted) {
     				dispose = [
     					listen_dev(a0, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(div3, "click", /*toggleMenu*/ ctx[3], false, false, false, false),
-    					listen_dev(div3, "keydown", /*handleKeydown*/ ctx[4], false, false, false, false),
     					listen_dev(a1, "click", /*handleClick*/ ctx[2], false, false, false, false),
     					listen_dev(a2, "click", /*handleClick*/ ctx[2], false, false, false, false),
     					listen_dev(a3, "click", /*handleClick*/ ctx[2], false, false, false, false),
@@ -4900,26 +4803,27 @@ var app = (function () {
     					listen_dev(a12, "click", /*handleClick*/ ctx[2], false, false, false, false),
     					listen_dev(a13, "click", /*handleClick*/ ctx[2], false, false, false, false),
     					listen_dev(a14, "click", /*handleClick*/ ctx[2], false, false, false, false),
-    					listen_dev(a15, "click", /*handleClick*/ ctx[2], false, false, false, false)
+    					listen_dev(div8, "click", /*toggleMenu*/ ctx[3], false, false, false, false),
+    					listen_dev(div8, "keydown", /*handleKeydown*/ ctx[4], false, false, false, false)
     				];
 
     				mounted = true;
     			}
     		},
     		p: function update(ctx, [dirty]) {
-    			if (dirty & /*showMenu*/ 1 && div3_class_value !== (div3_class_value = "burger-menu " + (/*showMenu*/ ctx[0] ? 'active' : '') + " svelte-1stn4en")) {
-    				attr_dev(div3, "class", div3_class_value);
+    			if (dirty & /*dropdowns*/ 2 && div0_class_value !== (div0_class_value = "dropdown-content " + (/*dropdowns*/ ctx[1]['#about'] ? 'show' : '') + " svelte-p881p7")) {
+    				attr_dev(div0, "class", div0_class_value);
     			}
 
-    			if (dirty & /*dropdowns*/ 2 && div4_class_value !== (div4_class_value = "dropdown-content " + (/*dropdowns*/ ctx[1]['#about'] ? 'show' : '') + " svelte-1stn4en")) {
+    			if (dirty & /*dropdowns*/ 2 && div2_class_value !== (div2_class_value = "dropdown-content " + (/*dropdowns*/ ctx[1]['#committees'] ? 'show' : '') + " svelte-p881p7")) {
+    				attr_dev(div2, "class", div2_class_value);
+    			}
+
+    			if (dirty & /*showMenu*/ 1 && div4_class_value !== (div4_class_value = "menu-items " + (/*showMenu*/ ctx[0] ? 'show' : '') + " svelte-p881p7")) {
     				attr_dev(div4, "class", div4_class_value);
     			}
 
-    			if (dirty & /*dropdowns*/ 2 && div6_class_value !== (div6_class_value = "dropdown-content " + (/*dropdowns*/ ctx[1]['#committees'] ? 'show' : '') + " svelte-1stn4en")) {
-    				attr_dev(div6, "class", div6_class_value);
-    			}
-
-    			if (dirty & /*showMenu*/ 1 && div8_class_value !== (div8_class_value = "menu-items " + (/*showMenu*/ ctx[0] ? 'show' : '') + " svelte-1stn4en")) {
+    			if (dirty & /*showMenu*/ 1 && div8_class_value !== (div8_class_value = "burger-menu " + (/*showMenu*/ ctx[0] ? 'active' : '') + " svelte-p881p7")) {
     				attr_dev(div8, "class", div8_class_value);
     			}
     		},
@@ -4947,7 +4851,7 @@ var app = (function () {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Navbar', slots, []);
     	let showMenu = false;
-    	let dropdowns = {};
+    	let dropdowns = { '#about': false, '#committees': false };
 
     	function handleClick(event) {
     		const href = event.currentTarget.getAttribute('href');
@@ -4956,21 +4860,46 @@ var app = (function () {
     		if (!isDropdown) {
     			event.preventDefault();
 
+    			// Close dropdowns when clicking other links
+    			$$invalidate(1, dropdowns = { '#about': false, '#committees': false });
+
     			if (href.startsWith('http')) {
     				window.open(href, '_blank');
     			} else {
     				navigate(href);
-    				$$invalidate(0, showMenu = false);
-    				$$invalidate(1, dropdowns = {});
+
+    				if (window.innerWidth <= 768) {
+    					$$invalidate(0, showMenu = false);
+    				}
     			}
     		} else {
     			event.preventDefault();
-    			toggleDropdown(href);
+    			const dropdownId = event.currentTarget.getAttribute('href');
+
+    			if (window.innerWidth <= 768) {
+    				$$invalidate(1, dropdowns = {
+    					...dropdowns,
+    					[dropdownId]: !dropdowns[dropdownId]
+    				});
+    			} else {
+    				// Toggle dropdown only if menu is closed on larger screens
+    				if (!showMenu) {
+    					$$invalidate(1, dropdowns = {
+    						...dropdowns,
+    						[dropdownId]: !dropdowns[dropdownId]
+    					});
+    				}
+    			}
     		}
     	}
 
     	function toggleMenu() {
     		$$invalidate(0, showMenu = !showMenu);
+
+    		// Close all dropdowns when opening or closing the menu
+    		if (!showMenu) {
+    			$$invalidate(1, dropdowns = { '#about': false, '#committees': false });
+    		}
     	}
 
     	function handleKeydown(event) {
@@ -4980,16 +4909,10 @@ var app = (function () {
     		}
     	}
 
-    	function toggleDropdown(href) {
-    		$$invalidate(1, dropdowns[href] = !dropdowns[href], dropdowns);
-    	}
-
     	function handleClickOutside(event) {
     		if (showMenu && !event.target.closest('.navbar')) {
     			$$invalidate(0, showMenu = false);
-    			$$invalidate(1, dropdowns = {});
-    		} else if (!event.target.closest('.dropdown-content') && !event.target.closest('.dropbtn')) {
-    			$$invalidate(1, dropdowns = {});
+    			$$invalidate(1, dropdowns = { '#about': false, '#committees': false });
     		}
     	}
 
@@ -5015,7 +4938,6 @@ var app = (function () {
     		handleClick,
     		toggleMenu,
     		handleKeydown,
-    		toggleDropdown,
     		handleClickOutside
     	});
 
