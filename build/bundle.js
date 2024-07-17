@@ -5129,7 +5129,7 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			iframe = element("iframe");
-    			if (!src_url_equal(iframe.src, iframe_src_value = "https://forms.gle/fJbVEviafmWoiBio7")) attr_dev(iframe, "src", iframe_src_value);
+    			if (!src_url_equal(iframe.src, iframe_src_value = "https://forms.gle/513yK2ND7mRX4qS29")) attr_dev(iframe, "src", iframe_src_value);
     			attr_dev(iframe, "title", "Individual Registration");
     			attr_dev(iframe, "class", "svelte-1j98bl6");
     			add_location(iframe, file$1, 13, 2, 144);
