@@ -2864,7 +2864,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (17:4) {#each textContent.split('\n') as paragraph}
+    // (18:4) {#each textContent.split('\n') as paragraph}
     function create_each_block$3(ctx) {
     	let p;
     	let t_value = /*paragraph*/ ctx[2] + "";
@@ -2874,8 +2874,8 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			t = text(t_value);
-    			attr_dev(p, "class", "svelte-1ljoufi");
-    			add_location(p, file$f, 17, 6, 1472);
+    			attr_dev(p, "class", "svelte-1ymtnlr");
+    			add_location(p, file$f, 18, 6, 1901);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -2891,7 +2891,7 @@ var app = (function () {
     		block,
     		id: create_each_block$3.name,
     		type: "each",
-    		source: "(17:4) {#each textContent.split('\\n') as paragraph}",
+    		source: "(18:4) {#each textContent.split('\\n') as paragraph}",
     		ctx
     	});
 
@@ -2931,19 +2931,19 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h1, "class", "heading svelte-1ljoufi");
-    			add_location(h1, file$f, 10, 0, 1171);
+    			attr_dev(h1, "class", "heading svelte-1ymtnlr");
+    			add_location(h1, file$f, 11, 0, 1600);
     			if (!src_url_equal(img.src, img_src_value = /*imageUrl*/ ctx[0])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Devansh");
     			attr_dev(img, "loading", "lazy");
-    			attr_dev(img, "class", "svelte-1ljoufi");
-    			add_location(img, file$f, 13, 4, 1286);
-    			attr_dev(div0, "class", "image-container svelte-1ljoufi");
-    			add_location(div0, file$f, 12, 2, 1251);
-    			attr_dev(div1, "class", "text-container svelte-1ljoufi");
-    			add_location(div1, file$f, 15, 2, 1386);
-    			attr_dev(div2, "class", "container svelte-1ljoufi");
-    			add_location(div2, file$f, 11, 0, 1224);
+    			attr_dev(img, "class", "svelte-1ymtnlr");
+    			add_location(img, file$f, 14, 4, 1715);
+    			attr_dev(div0, "class", "image-container svelte-1ymtnlr");
+    			add_location(div0, file$f, 13, 2, 1680);
+    			attr_dev(div1, "class", "text-container svelte-1ymtnlr");
+    			add_location(div1, file$f, 16, 2, 1815);
+    			attr_dev(div2, "class", "container svelte-1ymtnlr");
+    			add_location(div2, file$f, 12, 0, 1653);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3021,10 +3021,11 @@ var app = (function () {
     	validate_slots('AboutBoscoMUN', slots, []);
     	let imageUrl = '/DBPC.jpg';
 
-    	let textContent = `From Joseph Stalin's Cabinet where the Kremlin finds itself in the midst of the Winter War to the United Nations Security Council aiming to mediate the cataclysm in Georgia, every moment at Bosco MUN 2024 guarantees intense debates, manipulative negotiations, impeccable diplomacy and the neverending struggle for peace and power.
+    	let textContent = `From Joseph Stalin's Cabinet where the Kremlin find itself in the midst of the Winter War to the United Nations Security Council aiming to mediate the cataclysm in Georgia, every moment at Bosco MUN 2024 guarantees intense debates, manipulative negotiations, impeccable diplomacy, and the never-ending struggle for peace and power in this world. This time BOSCO MUN has it all and it's bigger than ever.
 
-The universe stands at the brink another World War, the fate of the world rests in the hands of the delegates at Bosco MUN 2024, where each committee will address crucial concerns that shall determine the fate of generations to come. There is no margin for error. Delegates must collaborate, deliberate and negotiate to tame the crises at hand. This symposium promises profound insights into international diplomacy, underscoring the pivotal role of collective action in navigating our world’s most pressing issues.
-Join us at the 9th edition of Bosco MUN: From Chaos to Cohesion: A global pursuit of 20th century and beyond where diplomacy meets innovation and young leaders forge solutions for a better world.
+From the universe standing on the brink of another World War to a crisis that sends tremors across all southeast nations, it is that time when the fate of the world rests in the hands of the delegates at Bosco MUN 2024, where each committee will address crucial concerns that shall determine the fate of generations to come. There is no margin for error. There is no time to rest.  Delegates must collaborate, deliberate, and negotiate to tame the crises at hand. This symposium promises profound insights into international diplomacy, underscoring the pivotal role of collective action in navigating our world’s most pressing issues to provide the delegates with a real-time world experience of what it takes to actually delve and involve oneself in the world of international politics and diplomacy and to feel what it is to have an actual impact in the world. 
+
+Join us at the 9th edition of Bosco MUN: From Chaos to Cohesion: A Global Pursuit of the 20th Century and Beyond,  where diplomacy meets innovation and young leaders forge solutions for a better world.
 `;
 
     	const writable_props = [];
@@ -3080,7 +3081,7 @@ Join us at the 9th edition of Bosco MUN: From Chaos to Cohesion: A global pursui
     		c: function create() {
     			p = element("p");
     			t = text(t_value);
-    			attr_dev(p, "class", "svelte-1ljoufi");
+    			attr_dev(p, "class", "svelte-1ymtnlr");
     			add_location(p, file$e, 31, 6, 2438);
     		},
     		m: function mount(target, anchor) {
@@ -3137,18 +3138,18 @@ Join us at the 9th edition of Bosco MUN: From Chaos to Cohesion: A global pursui
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h1, "class", "heading svelte-1ljoufi");
+    			attr_dev(h1, "class", "heading svelte-1ymtnlr");
     			add_location(h1, file$e, 24, 0, 2136);
     			if (!src_url_equal(img.src, img_src_value = /*imageUrl*/ ctx[0])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Devansh");
     			attr_dev(img, "loading", "lazy");
-    			attr_dev(img, "class", "svelte-1ljoufi");
+    			attr_dev(img, "class", "svelte-1ymtnlr");
     			add_location(img, file$e, 27, 4, 2252);
-    			attr_dev(div0, "class", "image-container svelte-1ljoufi");
+    			attr_dev(div0, "class", "image-container svelte-1ymtnlr");
     			add_location(div0, file$e, 26, 2, 2217);
-    			attr_dev(div1, "class", "text-container svelte-1ljoufi");
+    			attr_dev(div1, "class", "text-container svelte-1ymtnlr");
     			add_location(div1, file$e, 29, 2, 2352);
-    			attr_dev(div2, "class", "container svelte-1ljoufi");
+    			attr_dev(div2, "class", "container svelte-1ymtnlr");
     			add_location(div2, file$e, 25, 0, 2190);
     		},
     		l: function claim(nodes) {
@@ -3306,8 +3307,8 @@ BOSCO MUN 2024.
     		c: function create() {
     			p = element("p");
     			t = text(t_value);
-    			attr_dev(p, "class", "svelte-4jvnh6");
-    			add_location(p, file$d, 62, 8, 4715);
+    			attr_dev(p, "class", "svelte-41vqhf");
+    			add_location(p, file$d, 62, 8, 4719);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -3340,8 +3341,8 @@ BOSCO MUN 2024.
     		c: function create() {
     			p = element("p");
     			t = text(t_value);
-    			attr_dev(p, "class", "svelte-4jvnh6");
-    			add_location(p, file$d, 70, 8, 4896);
+    			attr_dev(p, "class", "svelte-41vqhf");
+    			add_location(p, file$d, 70, 8, 4900);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -3428,34 +3429,34 @@ BOSCO MUN 2024.
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h1, "class", "heading svelte-4jvnh6");
-    			add_location(h1, file$d, 49, 0, 4176);
+    			attr_dev(h1, "class", "heading svelte-41vqhf");
+    			add_location(h1, file$d, 49, 0, 4180);
     			if (!src_url_equal(img0.src, img0_src_value = /*imageUrl1*/ ctx[0])) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "Amay");
     			attr_dev(img0, "loading", "lazy");
-    			attr_dev(img0, "class", "svelte-4jvnh6");
-    			add_location(img0, file$d, 54, 8, 4361);
-    			attr_dev(div0, "class", "image-container svelte-4jvnh6");
-    			add_location(div0, file$d, 53, 6, 4322);
+    			attr_dev(img0, "class", "svelte-41vqhf");
+    			add_location(img0, file$d, 54, 8, 4365);
+    			attr_dev(div0, "class", "image-container svelte-41vqhf");
+    			add_location(div0, file$d, 53, 6, 4326);
     			if (!src_url_equal(img1.src, img1_src_value = /*imageUrl2*/ ctx[2])) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "Rohaan");
     			attr_dev(img1, "loading", "lazy");
-    			attr_dev(img1, "class", "svelte-4jvnh6");
-    			add_location(img1, file$d, 57, 8, 4506);
-    			attr_dev(div1, "class", "image-container svelte-4jvnh6");
-    			add_location(div1, file$d, 56, 6, 4467);
-    			attr_dev(div2, "class", "image-row svelte-4jvnh6");
-    			add_location(div2, file$d, 52, 4, 4291);
-    			attr_dev(div3, "class", "text-container svelte-4jvnh6");
-    			add_location(div3, file$d, 60, 4, 4624);
-    			attr_dev(div4, "class", "section svelte-4jvnh6");
-    			add_location(div4, file$d, 51, 2, 4264);
-    			attr_dev(div5, "class", "text-container svelte-4jvnh6");
-    			add_location(div5, file$d, 68, 4, 4805);
-    			attr_dev(div6, "class", "section svelte-4jvnh6");
-    			add_location(div6, file$d, 67, 2, 4778);
-    			attr_dev(div7, "class", "container svelte-4jvnh6");
-    			add_location(div7, file$d, 50, 0, 4237);
+    			attr_dev(img1, "class", "svelte-41vqhf");
+    			add_location(img1, file$d, 57, 8, 4510);
+    			attr_dev(div1, "class", "image-container svelte-41vqhf");
+    			add_location(div1, file$d, 56, 6, 4471);
+    			attr_dev(div2, "class", "image-row svelte-41vqhf");
+    			add_location(div2, file$d, 52, 4, 4295);
+    			attr_dev(div3, "class", "text-container svelte-41vqhf");
+    			add_location(div3, file$d, 60, 4, 4628);
+    			attr_dev(div4, "class", "section svelte-41vqhf");
+    			add_location(div4, file$d, 51, 2, 4268);
+    			attr_dev(div5, "class", "text-container svelte-41vqhf");
+    			add_location(div5, file$d, 68, 4, 4809);
+    			attr_dev(div6, "class", "section svelte-41vqhf");
+    			add_location(div6, file$d, 67, 2, 4782);
+    			attr_dev(div7, "class", "container svelte-41vqhf");
+    			add_location(div7, file$d, 50, 0, 4241);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3606,7 +3607,7 @@ BOSCO MUN 2024.
 
     	let textContent2 = `Greetings Delegates,
 
-I would like to start off with one of my favourite quotes by Oskar Schindler “Power - is when we have every justification to kill, and we don't!”
+I would like to start off with one of my favourite quotations by Oskar Schindler “Power - is when we have every justification to kill, and we don't!”
 
 As we embark on this journey together in BOSCO MUN 2024, it is an honour to be your Co. Deputy Secretary General. Moments of unity and progress are often preceded by periods of turmoil and confusion. ⁤⁤ New peace frameworks emerge from the ashes of conflict; in the depths of disorder we find the seeds of innovation and collaboration. Human development and social growth is driven by this continuous dance of chaos and coherence.
 
@@ -3843,80 +3844,80 @@ BOSCO MUN 2024
     			t51 = text("\r\n    The Ninth Secretariat,");
     			br7 = element("br");
     			t52 = text("\r\n    Bosco MUN 2024");
-    			attr_dev(h1, "class", "heading svelte-12ue0bz");
+    			attr_dev(h1, "class", "heading svelte-ywmiii");
     			add_location(h1, file$c, 5, 0, 100);
     			if (!src_url_equal(img.src, img_src_value = /*imageUrl*/ ctx[0])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Devansh");
     			attr_dev(img, "loading", "lazy");
-    			attr_dev(img, "class", "svelte-12ue0bz");
+    			attr_dev(img, "class", "svelte-ywmiii");
     			add_location(img, file$c, 8, 4, 220);
-    			attr_dev(div0, "class", "image-container svelte-12ue0bz");
+    			attr_dev(div0, "class", "image-container svelte-ywmiii");
     			add_location(div0, file$c, 7, 2, 185);
-    			attr_dev(strong0, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong0, "class", "highlight svelte-ywmiii");
     			add_location(strong0, file$c, 11, 7, 357);
-    			attr_dev(p0, "class", "svelte-12ue0bz");
+    			attr_dev(p0, "class", "svelte-ywmiii");
     			add_location(p0, file$c, 11, 4, 354);
-    			attr_dev(strong1, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong1, "class", "highlight svelte-ywmiii");
     			add_location(strong1, file$c, 12, 7, 433);
-    			attr_dev(p1, "class", "svelte-12ue0bz");
+    			attr_dev(p1, "class", "svelte-ywmiii");
     			add_location(p1, file$c, 12, 4, 430);
-    			attr_dev(strong2, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong2, "class", "highlight svelte-ywmiii");
     			add_location(strong2, file$c, 13, 7, 514);
-    			attr_dev(p2, "class", "svelte-12ue0bz");
+    			attr_dev(p2, "class", "svelte-ywmiii");
     			add_location(p2, file$c, 13, 4, 511);
-    			attr_dev(strong3, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong3, "class", "highlight svelte-ywmiii");
     			add_location(strong3, file$c, 14, 7, 586);
-    			attr_dev(p3, "class", "svelte-12ue0bz");
+    			attr_dev(p3, "class", "svelte-ywmiii");
     			add_location(p3, file$c, 14, 4, 583);
     			add_location(br0, file$c, 15, 4, 661);
-    			attr_dev(strong4, "class", "highlight-underline svelte-12ue0bz");
+    			attr_dev(strong4, "class", "highlight-underline svelte-ywmiii");
     			add_location(strong4, file$c, 16, 31, 698);
-    			attr_dev(p4, "class", "address-section svelte-12ue0bz");
+    			attr_dev(p4, "class", "address-section svelte-ywmiii");
     			add_location(p4, file$c, 16, 4, 671);
-    			attr_dev(p5, "class", "svelte-12ue0bz");
+    			attr_dev(p5, "class", "svelte-ywmiii");
     			add_location(p5, file$c, 17, 4, 773);
-    			attr_dev(p6, "class", "svelte-12ue0bz");
+    			attr_dev(p6, "class", "svelte-ywmiii");
     			add_location(p6, file$c, 18, 4, 1180);
-    			attr_dev(p7, "class", "svelte-12ue0bz");
+    			attr_dev(p7, "class", "svelte-ywmiii");
     			add_location(p7, file$c, 20, 4, 1690);
     			add_location(br1, file$c, 21, 8, 1944);
-    			attr_dev(strong5, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong5, "class", "highlight svelte-ywmiii");
     			add_location(strong5, file$c, 22, 7, 1957);
-    			attr_dev(p8, "class", "svelte-12ue0bz");
+    			attr_dev(p8, "class", "svelte-ywmiii");
     			add_location(p8, file$c, 22, 4, 1954);
     			add_location(br2, file$c, 23, 4, 2037);
-    			attr_dev(strong6, "class", "highlight-underline svelte-12ue0bz");
+    			attr_dev(strong6, "class", "highlight-underline svelte-ywmiii");
     			add_location(strong6, file$c, 24, 31, 2074);
-    			attr_dev(p9, "class", "address-section svelte-12ue0bz");
+    			attr_dev(p9, "class", "address-section svelte-ywmiii");
     			add_location(p9, file$c, 24, 4, 2047);
-    			attr_dev(p10, "class", "svelte-12ue0bz");
+    			attr_dev(p10, "class", "svelte-ywmiii");
     			add_location(p10, file$c, 25, 4, 2151);
-    			attr_dev(p11, "class", "svelte-12ue0bz");
+    			attr_dev(p11, "class", "svelte-ywmiii");
     			add_location(p11, file$c, 26, 4, 2506);
-    			attr_dev(p12, "class", "svelte-12ue0bz");
+    			attr_dev(p12, "class", "svelte-ywmiii");
     			add_location(p12, file$c, 27, 4, 2951);
-    			attr_dev(p13, "class", "svelte-12ue0bz");
+    			attr_dev(p13, "class", "svelte-ywmiii");
     			add_location(p13, file$c, 28, 4, 3117);
-    			attr_dev(p14, "class", "svelte-12ue0bz");
+    			attr_dev(p14, "class", "svelte-ywmiii");
     			add_location(p14, file$c, 29, 4, 3368);
-    			attr_dev(p15, "class", "svelte-12ue0bz");
+    			attr_dev(p15, "class", "svelte-ywmiii");
     			add_location(p15, file$c, 30, 4, 3633);
-    			attr_dev(p16, "class", "svelte-12ue0bz");
+    			attr_dev(p16, "class", "svelte-ywmiii");
     			add_location(p16, file$c, 31, 4, 4030);
-    			attr_dev(p17, "class", "svelte-12ue0bz");
+    			attr_dev(p17, "class", "svelte-ywmiii");
     			add_location(p17, file$c, 32, 4, 4193);
-    			attr_dev(p18, "class", "svelte-12ue0bz");
+    			attr_dev(p18, "class", "svelte-ywmiii");
     			add_location(p18, file$c, 33, 4, 4844);
     			add_location(br3, file$c, 34, 15, 5281);
     			add_location(br4, file$c, 35, 20, 5307);
     			add_location(br5, file$c, 36, 22, 5335);
     			add_location(br6, file$c, 37, 51, 5392);
     			add_location(br7, file$c, 38, 26, 5424);
-    			attr_dev(p19, "class", "svelte-12ue0bz");
+    			attr_dev(p19, "class", "svelte-ywmiii");
     			add_location(p19, file$c, 34, 4, 5270);
-    			attr_dev(div1, "class", "text-container svelte-12ue0bz");
+    			attr_dev(div1, "class", "text-container svelte-ywmiii");
     			add_location(div1, file$c, 10, 2, 320);
-    			attr_dev(div2, "class", "container svelte-12ue0bz");
+    			attr_dev(div2, "class", "container svelte-ywmiii");
     			add_location(div2, file$c, 6, 0, 158);
     		},
     		l: function claim(nodes) {
@@ -4254,75 +4255,75 @@ BOSCO MUN 2024
     			t57 = text("\r\n    The Ninth Secretariat,");
     			br8 = element("br");
     			t58 = text("\r\n    Bosco MUN 2024");
-    			attr_dev(h1, "class", "heading svelte-12ue0bz");
+    			attr_dev(h1, "class", "heading svelte-ywmiii");
     			add_location(h1, file$b, 5, 0, 101);
     			if (!src_url_equal(img.src, img_src_value = /*imageUrl*/ ctx[0])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Devansh");
     			attr_dev(img, "loading", "lazy");
-    			attr_dev(img, "class", "svelte-12ue0bz");
+    			attr_dev(img, "class", "svelte-ywmiii");
     			add_location(img, file$b, 8, 4, 222);
-    			attr_dev(div0, "class", "image-container svelte-12ue0bz");
+    			attr_dev(div0, "class", "image-container svelte-ywmiii");
     			add_location(div0, file$b, 7, 2, 187);
-    			attr_dev(strong0, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong0, "class", "highlight svelte-ywmiii");
     			add_location(strong0, file$b, 11, 7, 359);
-    			attr_dev(p0, "class", "svelte-12ue0bz");
+    			attr_dev(p0, "class", "svelte-ywmiii");
     			add_location(p0, file$b, 11, 4, 356);
-    			attr_dev(strong1, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong1, "class", "highlight svelte-ywmiii");
     			add_location(strong1, file$b, 12, 7, 432);
-    			attr_dev(p1, "class", "svelte-12ue0bz");
+    			attr_dev(p1, "class", "svelte-ywmiii");
     			add_location(p1, file$b, 12, 4, 429);
-    			attr_dev(strong2, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong2, "class", "highlight svelte-ywmiii");
     			add_location(strong2, file$b, 13, 7, 514);
-    			attr_dev(p2, "class", "svelte-12ue0bz");
+    			attr_dev(p2, "class", "svelte-ywmiii");
     			add_location(p2, file$b, 13, 4, 511);
-    			attr_dev(strong3, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong3, "class", "highlight svelte-ywmiii");
     			add_location(strong3, file$b, 14, 7, 587);
-    			attr_dev(p3, "class", "svelte-12ue0bz");
+    			attr_dev(p3, "class", "svelte-ywmiii");
     			add_location(p3, file$b, 14, 4, 584);
     			add_location(br0, file$b, 15, 4, 656);
-    			attr_dev(strong4, "class", "highlight-underline svelte-12ue0bz");
+    			attr_dev(strong4, "class", "highlight-underline svelte-ywmiii");
     			add_location(strong4, file$b, 16, 31, 693);
-    			attr_dev(p4, "class", "address-section svelte-12ue0bz");
+    			attr_dev(p4, "class", "address-section svelte-ywmiii");
     			add_location(p4, file$b, 16, 4, 666);
-    			attr_dev(p5, "class", "svelte-12ue0bz");
+    			attr_dev(p5, "class", "svelte-ywmiii");
     			add_location(p5, file$b, 17, 4, 768);
-    			attr_dev(p6, "class", "svelte-12ue0bz");
+    			attr_dev(p6, "class", "svelte-ywmiii");
     			add_location(p6, file$b, 19, 4, 1204);
-    			attr_dev(p7, "class", "svelte-12ue0bz");
+    			attr_dev(p7, "class", "svelte-ywmiii");
     			add_location(p7, file$b, 21, 4, 1452);
-    			attr_dev(p8, "class", "svelte-12ue0bz");
+    			attr_dev(p8, "class", "svelte-ywmiii");
     			add_location(p8, file$b, 23, 4, 1680);
     			add_location(br1, file$b, 24, 8, 2018);
-    			attr_dev(strong5, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong5, "class", "highlight svelte-ywmiii");
     			add_location(strong5, file$b, 25, 7, 2031);
-    			attr_dev(p9, "class", "svelte-12ue0bz");
+    			attr_dev(p9, "class", "svelte-ywmiii");
     			add_location(p9, file$b, 25, 4, 2028);
     			add_location(br2, file$b, 26, 4, 2143);
-    			attr_dev(strong6, "class", "highlight-underline svelte-12ue0bz");
+    			attr_dev(strong6, "class", "highlight-underline svelte-ywmiii");
     			add_location(strong6, file$b, 27, 31, 2180);
-    			attr_dev(p10, "class", "address-section svelte-12ue0bz");
+    			attr_dev(p10, "class", "address-section svelte-ywmiii");
     			add_location(p10, file$b, 27, 4, 2153);
-    			attr_dev(p11, "class", "svelte-12ue0bz");
+    			attr_dev(p11, "class", "svelte-ywmiii");
     			add_location(p11, file$b, 28, 4, 2257);
-    			attr_dev(p12, "class", "svelte-12ue0bz");
+    			attr_dev(p12, "class", "svelte-ywmiii");
     			add_location(p12, file$b, 29, 6, 2292);
-    			attr_dev(p13, "class", "svelte-12ue0bz");
+    			attr_dev(p13, "class", "svelte-ywmiii");
     			add_location(p13, file$b, 30, 4, 2481);
-    			attr_dev(p14, "class", "svelte-12ue0bz");
+    			attr_dev(p14, "class", "svelte-ywmiii");
     			add_location(p14, file$b, 31, 4, 3157);
-    			attr_dev(p15, "class", "svelte-12ue0bz");
+    			attr_dev(p15, "class", "svelte-ywmiii");
     			add_location(p15, file$b, 32, 4, 3225);
-    			attr_dev(p16, "class", "svelte-12ue0bz");
+    			attr_dev(p16, "class", "svelte-ywmiii");
     			add_location(p16, file$b, 33, 4, 3768);
-    			attr_dev(p17, "class", "svelte-12ue0bz");
+    			attr_dev(p17, "class", "svelte-ywmiii");
     			add_location(p17, file$b, 35, 4, 4172);
-    			attr_dev(p18, "class", "svelte-12ue0bz");
+    			attr_dev(p18, "class", "svelte-ywmiii");
     			add_location(p18, file$b, 37, 4, 4709);
-    			attr_dev(p19, "class", "svelte-12ue0bz");
+    			attr_dev(p19, "class", "svelte-ywmiii");
     			add_location(p19, file$b, 39, 4, 5266);
-    			attr_dev(p20, "class", "svelte-12ue0bz");
+    			attr_dev(p20, "class", "svelte-ywmiii");
     			add_location(p20, file$b, 40, 4, 5722);
-    			attr_dev(p21, "class", "svelte-12ue0bz");
+    			attr_dev(p21, "class", "svelte-ywmiii");
     			add_location(p21, file$b, 42, 4, 6291);
     			add_location(br3, file$b, 42, 25, 6312);
     			add_location(br4, file$b, 43, 15, 6333);
@@ -4330,11 +4331,11 @@ BOSCO MUN 2024
     			add_location(br6, file$b, 45, 29, 6390);
     			add_location(br7, file$b, 46, 50, 6446);
     			add_location(br8, file$b, 47, 26, 6478);
-    			attr_dev(p22, "class", "svelte-12ue0bz");
+    			attr_dev(p22, "class", "svelte-ywmiii");
     			add_location(p22, file$b, 43, 4, 6322);
-    			attr_dev(div1, "class", "text-container svelte-12ue0bz");
+    			attr_dev(div1, "class", "text-container svelte-ywmiii");
     			add_location(div1, file$b, 10, 2, 322);
-    			attr_dev(div2, "class", "container svelte-12ue0bz");
+    			attr_dev(div2, "class", "container svelte-ywmiii");
     			add_location(div2, file$b, 6, 0, 160);
     		},
     		l: function claim(nodes) {
@@ -4652,76 +4653,76 @@ BOSCO MUN 2024
     			t47 = text("\r\n    The Ninth Secretariat,");
     			br7 = element("br");
     			t48 = text("\r\n    Bosco MUN 2024");
-    			attr_dev(h1, "class", "heading svelte-12ue0bz");
+    			attr_dev(h1, "class", "heading svelte-ywmiii");
     			add_location(h1, file$a, 5, 0, 99);
     			if (!src_url_equal(img.src, img_src_value = /*imageUrl*/ ctx[0])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Devansh");
     			attr_dev(img, "loading", "lazy");
-    			attr_dev(img, "class", "svelte-12ue0bz");
+    			attr_dev(img, "class", "svelte-ywmiii");
     			add_location(img, file$a, 8, 4, 211);
-    			attr_dev(div0, "class", "image-container svelte-12ue0bz");
+    			attr_dev(div0, "class", "image-container svelte-ywmiii");
     			add_location(div0, file$a, 7, 2, 176);
-    			attr_dev(strong0, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong0, "class", "highlight svelte-ywmiii");
     			add_location(strong0, file$a, 11, 7, 348);
-    			attr_dev(p0, "class", "svelte-12ue0bz");
+    			attr_dev(p0, "class", "svelte-ywmiii");
     			add_location(p0, file$a, 11, 4, 345);
-    			attr_dev(strong1, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong1, "class", "highlight svelte-ywmiii");
     			add_location(strong1, file$a, 12, 7, 431);
-    			attr_dev(p1, "class", "svelte-12ue0bz");
+    			attr_dev(p1, "class", "svelte-ywmiii");
     			add_location(p1, file$a, 12, 4, 428);
-    			attr_dev(strong2, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong2, "class", "highlight svelte-ywmiii");
     			add_location(strong2, file$a, 13, 7, 519);
-    			attr_dev(p2, "class", "svelte-12ue0bz");
+    			attr_dev(p2, "class", "svelte-ywmiii");
     			add_location(p2, file$a, 13, 4, 516);
-    			attr_dev(strong3, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong3, "class", "highlight svelte-ywmiii");
     			add_location(strong3, file$a, 14, 7, 598);
-    			attr_dev(p3, "class", "svelte-12ue0bz");
+    			attr_dev(p3, "class", "svelte-ywmiii");
     			add_location(p3, file$a, 14, 4, 595);
     			add_location(br0, file$a, 15, 4, 675);
-    			attr_dev(strong4, "class", "highlight-underline svelte-12ue0bz");
+    			attr_dev(strong4, "class", "highlight-underline svelte-ywmiii");
     			add_location(strong4, file$a, 16, 31, 712);
-    			attr_dev(p4, "class", "address-section svelte-12ue0bz");
+    			attr_dev(p4, "class", "address-section svelte-ywmiii");
     			add_location(p4, file$a, 16, 4, 685);
-    			attr_dev(p5, "class", "svelte-12ue0bz");
+    			attr_dev(p5, "class", "svelte-ywmiii");
     			add_location(p5, file$a, 17, 4, 787);
-    			attr_dev(p6, "class", "svelte-12ue0bz");
+    			attr_dev(p6, "class", "svelte-ywmiii");
     			add_location(p6, file$a, 19, 4, 1106);
-    			attr_dev(p7, "class", "svelte-12ue0bz");
+    			attr_dev(p7, "class", "svelte-ywmiii");
     			add_location(p7, file$a, 21, 4, 1342);
     			add_location(br1, file$a, 22, 8, 1919);
-    			attr_dev(strong5, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong5, "class", "highlight svelte-ywmiii");
     			add_location(strong5, file$a, 23, 7, 1932);
-    			attr_dev(p8, "class", "svelte-12ue0bz");
+    			attr_dev(p8, "class", "svelte-ywmiii");
     			add_location(p8, file$a, 23, 4, 1929);
     			add_location(br2, file$a, 24, 4, 2006);
-    			attr_dev(strong6, "class", "highlight-underline svelte-12ue0bz");
+    			attr_dev(strong6, "class", "highlight-underline svelte-ywmiii");
     			add_location(strong6, file$a, 25, 31, 2043);
-    			attr_dev(p9, "class", "address-section svelte-12ue0bz");
+    			attr_dev(p9, "class", "address-section svelte-ywmiii");
     			add_location(p9, file$a, 25, 4, 2016);
-    			attr_dev(p10, "class", "svelte-12ue0bz");
+    			attr_dev(p10, "class", "svelte-ywmiii");
     			add_location(p10, file$a, 26, 4, 2120);
-    			attr_dev(p11, "class", "svelte-12ue0bz");
+    			attr_dev(p11, "class", "svelte-ywmiii");
     			add_location(p11, file$a, 28, 4, 2429);
-    			attr_dev(p12, "class", "svelte-12ue0bz");
+    			attr_dev(p12, "class", "svelte-ywmiii");
     			add_location(p12, file$a, 30, 4, 2511);
-    			attr_dev(p13, "class", "svelte-12ue0bz");
+    			attr_dev(p13, "class", "svelte-ywmiii");
     			add_location(p13, file$a, 32, 4, 2704);
-    			attr_dev(p14, "class", "svelte-12ue0bz");
+    			attr_dev(p14, "class", "svelte-ywmiii");
     			add_location(p14, file$a, 34, 4, 2944);
-    			attr_dev(p15, "class", "svelte-12ue0bz");
+    			attr_dev(p15, "class", "svelte-ywmiii");
     			add_location(p15, file$a, 36, 4, 3342);
-    			attr_dev(p16, "class", "svelte-12ue0bz");
+    			attr_dev(p16, "class", "svelte-ywmiii");
     			add_location(p16, file$a, 38, 4, 3712);
     			add_location(br3, file$a, 40, 15, 3932);
     			add_location(br4, file$a, 41, 25, 3963);
     			add_location(br5, file$a, 42, 29, 3998);
     			add_location(br6, file$a, 43, 41, 4045);
     			add_location(br7, file$a, 44, 26, 4077);
-    			attr_dev(p17, "class", "svelte-12ue0bz");
+    			attr_dev(p17, "class", "svelte-ywmiii");
     			add_location(p17, file$a, 40, 4, 3921);
-    			attr_dev(div1, "class", "text-container svelte-12ue0bz");
+    			attr_dev(div1, "class", "text-container svelte-ywmiii");
     			add_location(div1, file$a, 10, 2, 311);
-    			attr_dev(div2, "class", "container svelte-12ue0bz");
+    			attr_dev(div2, "class", "container svelte-ywmiii");
     			add_location(div2, file$a, 6, 0, 149);
     		},
     		l: function claim(nodes) {
@@ -5010,69 +5011,69 @@ BOSCO MUN 2024
     			t41 = text("\r\n    The Ninth Secretariat,");
     			br6 = element("br");
     			t42 = text("\r\n    Bosco MUN 2024");
-    			attr_dev(h1, "class", "heading svelte-12ue0bz");
+    			attr_dev(h1, "class", "heading svelte-ywmiii");
     			add_location(h1, file$9, 5, 0, 101);
     			if (!src_url_equal(img.src, img_src_value = /*imageUrl*/ ctx[0])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Devansh");
     			attr_dev(img, "loading", "lazy");
-    			attr_dev(img, "class", "svelte-12ue0bz");
+    			attr_dev(img, "class", "svelte-ywmiii");
     			add_location(img, file$9, 8, 4, 227);
-    			attr_dev(div0, "class", "image-container svelte-12ue0bz");
+    			attr_dev(div0, "class", "image-container svelte-ywmiii");
     			add_location(div0, file$9, 7, 2, 192);
-    			attr_dev(strong0, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong0, "class", "highlight svelte-ywmiii");
     			add_location(strong0, file$9, 11, 7, 364);
-    			attr_dev(p0, "class", "svelte-12ue0bz");
+    			attr_dev(p0, "class", "svelte-ywmiii");
     			add_location(p0, file$9, 11, 4, 361);
-    			attr_dev(strong1, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong1, "class", "highlight svelte-ywmiii");
     			add_location(strong1, file$9, 12, 7, 461);
-    			attr_dev(p1, "class", "svelte-12ue0bz");
+    			attr_dev(p1, "class", "svelte-ywmiii");
     			add_location(p1, file$9, 12, 4, 458);
-    			attr_dev(strong2, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong2, "class", "highlight svelte-ywmiii");
     			add_location(strong2, file$9, 13, 7, 543);
-    			attr_dev(p2, "class", "svelte-12ue0bz");
+    			attr_dev(p2, "class", "svelte-ywmiii");
     			add_location(p2, file$9, 13, 4, 540);
     			add_location(br0, file$9, 14, 4, 620);
-    			attr_dev(strong3, "class", "highlight-underline svelte-12ue0bz");
+    			attr_dev(strong3, "class", "highlight-underline svelte-ywmiii");
     			add_location(strong3, file$9, 15, 31, 657);
-    			attr_dev(p3, "class", "address-section svelte-12ue0bz");
+    			attr_dev(p3, "class", "address-section svelte-ywmiii");
     			add_location(p3, file$9, 15, 4, 630);
-    			attr_dev(p4, "class", "svelte-12ue0bz");
+    			attr_dev(p4, "class", "svelte-ywmiii");
     			add_location(p4, file$9, 16, 4, 732);
-    			attr_dev(p5, "class", "svelte-12ue0bz");
+    			attr_dev(p5, "class", "svelte-ywmiii");
     			add_location(p5, file$9, 18, 4, 1164);
-    			attr_dev(p6, "class", "svelte-12ue0bz");
+    			attr_dev(p6, "class", "svelte-ywmiii");
     			add_location(p6, file$9, 20, 4, 1422);
     			add_location(br1, file$9, 21, 8, 1999);
-    			attr_dev(strong4, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong4, "class", "highlight svelte-ywmiii");
     			add_location(strong4, file$9, 22, 7, 2012);
-    			attr_dev(p7, "class", "svelte-12ue0bz");
+    			attr_dev(p7, "class", "svelte-ywmiii");
     			add_location(p7, file$9, 22, 4, 2009);
     			add_location(br2, file$9, 23, 4, 2092);
-    			attr_dev(strong5, "class", "highlight-underline svelte-12ue0bz");
+    			attr_dev(strong5, "class", "highlight-underline svelte-ywmiii");
     			add_location(strong5, file$9, 24, 31, 2129);
-    			attr_dev(p8, "class", "address-section svelte-12ue0bz");
+    			attr_dev(p8, "class", "address-section svelte-ywmiii");
     			add_location(p8, file$9, 24, 4, 2102);
-    			attr_dev(p9, "class", "svelte-12ue0bz");
+    			attr_dev(p9, "class", "svelte-ywmiii");
     			add_location(p9, file$9, 25, 4, 2206);
-    			attr_dev(p10, "class", "svelte-12ue0bz");
+    			attr_dev(p10, "class", "svelte-ywmiii");
     			add_location(p10, file$9, 27, 4, 2245);
-    			attr_dev(p11, "class", "svelte-12ue0bz");
+    			attr_dev(p11, "class", "svelte-ywmiii");
     			add_location(p11, file$9, 29, 4, 2485);
-    			attr_dev(p12, "class", "svelte-12ue0bz");
+    			attr_dev(p12, "class", "svelte-ywmiii");
     			add_location(p12, file$9, 30, 4, 2562);
-    			attr_dev(p13, "class", "svelte-12ue0bz");
+    			attr_dev(p13, "class", "svelte-ywmiii");
     			add_location(p13, file$9, 32, 4, 3336);
-    			attr_dev(p14, "class", "svelte-12ue0bz");
+    			attr_dev(p14, "class", "svelte-ywmiii");
     			add_location(p14, file$9, 34, 4, 3688);
     			add_location(br3, file$9, 36, 15, 4826);
     			add_location(br4, file$9, 37, 40, 4872);
     			add_location(br5, file$9, 38, 67, 4945);
     			add_location(br6, file$9, 39, 26, 4977);
-    			attr_dev(p15, "class", "svelte-12ue0bz");
+    			attr_dev(p15, "class", "svelte-ywmiii");
     			add_location(p15, file$9, 36, 4, 4815);
-    			attr_dev(div1, "class", "text-container svelte-12ue0bz");
+    			attr_dev(div1, "class", "text-container svelte-ywmiii");
     			add_location(div1, file$9, 10, 2, 327);
-    			attr_dev(div2, "class", "container svelte-12ue0bz");
+    			attr_dev(div2, "class", "container svelte-ywmiii");
     			add_location(div2, file$9, 6, 0, 165);
     		},
     		l: function claim(nodes) {
@@ -5358,71 +5359,71 @@ BOSCO MUN 2024
     			t43 = text("\r\n    The Ninth Secretariat,");
     			br6 = element("br");
     			t44 = text("\r\n    Bosco MUN 2024");
-    			attr_dev(h1, "class", "heading svelte-12ue0bz");
+    			attr_dev(h1, "class", "heading svelte-ywmiii");
     			add_location(h1, file$8, 5, 0, 100);
     			if (!src_url_equal(img.src, img_src_value = /*imageUrl*/ ctx[0])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Devansh");
     			attr_dev(img, "loading", "lazy");
-    			attr_dev(img, "class", "svelte-12ue0bz");
+    			attr_dev(img, "class", "svelte-ywmiii");
     			add_location(img, file$8, 8, 4, 200);
-    			attr_dev(div0, "class", "image-container svelte-12ue0bz");
+    			attr_dev(div0, "class", "image-container svelte-ywmiii");
     			add_location(div0, file$8, 7, 2, 165);
-    			attr_dev(strong0, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong0, "class", "highlight svelte-ywmiii");
     			add_location(strong0, file$8, 11, 7, 337);
-    			attr_dev(p0, "class", "svelte-12ue0bz");
+    			attr_dev(p0, "class", "svelte-ywmiii");
     			add_location(p0, file$8, 11, 4, 334);
-    			attr_dev(strong1, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong1, "class", "highlight svelte-ywmiii");
     			add_location(strong1, file$8, 12, 7, 437);
-    			attr_dev(p1, "class", "svelte-12ue0bz");
+    			attr_dev(p1, "class", "svelte-ywmiii");
     			add_location(p1, file$8, 12, 4, 434);
-    			attr_dev(strong2, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong2, "class", "highlight svelte-ywmiii");
     			add_location(strong2, file$8, 13, 7, 522);
-    			attr_dev(p2, "class", "svelte-12ue0bz");
+    			attr_dev(p2, "class", "svelte-ywmiii");
     			add_location(p2, file$8, 13, 4, 519);
     			add_location(br0, file$8, 14, 4, 607);
-    			attr_dev(strong3, "class", "highlight-underline svelte-12ue0bz");
+    			attr_dev(strong3, "class", "highlight-underline svelte-ywmiii");
     			add_location(strong3, file$8, 15, 31, 644);
-    			attr_dev(p3, "class", "address-section svelte-12ue0bz");
+    			attr_dev(p3, "class", "address-section svelte-ywmiii");
     			add_location(p3, file$8, 15, 4, 617);
-    			attr_dev(p4, "class", "svelte-12ue0bz");
+    			attr_dev(p4, "class", "svelte-ywmiii");
     			add_location(p4, file$8, 16, 4, 719);
-    			attr_dev(p5, "class", "svelte-12ue0bz");
+    			attr_dev(p5, "class", "svelte-ywmiii");
     			add_location(p5, file$8, 18, 4, 1120);
-    			attr_dev(p6, "class", "svelte-12ue0bz");
+    			attr_dev(p6, "class", "svelte-ywmiii");
     			add_location(p6, file$8, 20, 4, 1589);
     			add_location(br1, file$8, 21, 8, 1859);
-    			attr_dev(strong4, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong4, "class", "highlight svelte-ywmiii");
     			add_location(strong4, file$8, 22, 7, 1872);
-    			attr_dev(p7, "class", "svelte-12ue0bz");
+    			attr_dev(p7, "class", "svelte-ywmiii");
     			add_location(p7, file$8, 22, 4, 1869);
     			add_location(br2, file$8, 23, 4, 1951);
-    			attr_dev(strong5, "class", "highlight-underline svelte-12ue0bz");
+    			attr_dev(strong5, "class", "highlight-underline svelte-ywmiii");
     			add_location(strong5, file$8, 24, 31, 1988);
-    			attr_dev(p8, "class", "address-section svelte-12ue0bz");
+    			attr_dev(p8, "class", "address-section svelte-ywmiii");
     			add_location(p8, file$8, 24, 4, 1961);
-    			attr_dev(p9, "class", "svelte-12ue0bz");
+    			attr_dev(p9, "class", "svelte-ywmiii");
     			add_location(p9, file$8, 25, 4, 2065);
-    			attr_dev(p10, "class", "svelte-12ue0bz");
+    			attr_dev(p10, "class", "svelte-ywmiii");
     			add_location(p10, file$8, 26, 4, 2102);
-    			attr_dev(p11, "class", "svelte-12ue0bz");
+    			attr_dev(p11, "class", "svelte-ywmiii");
     			add_location(p11, file$8, 28, 4, 3071);
-    			attr_dev(p12, "class", "svelte-12ue0bz");
+    			attr_dev(p12, "class", "svelte-ywmiii");
     			add_location(p12, file$8, 30, 4, 3155);
-    			attr_dev(p13, "class", "svelte-12ue0bz");
+    			attr_dev(p13, "class", "svelte-ywmiii");
     			add_location(p13, file$8, 32, 4, 3912);
-    			attr_dev(p14, "class", "svelte-12ue0bz");
+    			attr_dev(p14, "class", "svelte-ywmiii");
     			add_location(p14, file$8, 34, 4, 4561);
-    			attr_dev(p15, "class", "svelte-12ue0bz");
+    			attr_dev(p15, "class", "svelte-ywmiii");
     			add_location(p15, file$8, 36, 4, 5056);
     			add_location(br3, file$8, 38, 15, 5526);
     			add_location(br4, file$8, 39, 37, 5569);
     			add_location(br5, file$8, 40, 39, 5614);
     			add_location(br6, file$8, 41, 26, 5646);
-    			attr_dev(p16, "class", "svelte-12ue0bz");
+    			attr_dev(p16, "class", "svelte-ywmiii");
     			add_location(p16, file$8, 38, 4, 5515);
-    			attr_dev(div1, "class", "text-container svelte-12ue0bz");
+    			attr_dev(div1, "class", "text-container svelte-ywmiii");
     			add_location(div1, file$8, 10, 2, 300);
-    			attr_dev(div2, "class", "container svelte-12ue0bz");
+    			attr_dev(div2, "class", "container svelte-ywmiii");
     			add_location(div2, file$8, 6, 0, 138);
     		},
     		l: function claim(nodes) {
@@ -5642,7 +5643,7 @@ BOSCO MUN 2024
     			p1 = element("p");
     			strong1 = element("strong");
     			strong1.textContent = "Deputy Press Head:";
-    			t7 = text("  Himak More");
+    			t7 = text("  Himank More");
     			t8 = space();
     			br0 = element("br");
     			t9 = space();
@@ -5700,66 +5701,66 @@ BOSCO MUN 2024
     			t39 = text("\r\n    The Ninth Secretariat,");
     			br7 = element("br");
     			t40 = text("\r\n    Bosco MUN 2024");
-    			attr_dev(h1, "class", "heading svelte-12ue0bz");
+    			attr_dev(h1, "class", "heading svelte-ywmiii");
     			add_location(h1, file$7, 5, 0, 99);
     			if (!src_url_equal(img.src, img_src_value = /*imageUrl*/ ctx[0])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Devansh");
     			attr_dev(img, "loading", "lazy");
-    			attr_dev(img, "class", "svelte-12ue0bz");
+    			attr_dev(img, "class", "svelte-ywmiii");
     			add_location(img, file$7, 8, 4, 213);
-    			attr_dev(div0, "class", "image-container svelte-12ue0bz");
+    			attr_dev(div0, "class", "image-container svelte-ywmiii");
     			add_location(div0, file$7, 7, 2, 178);
-    			attr_dev(strong0, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong0, "class", "highlight svelte-ywmiii");
     			add_location(strong0, file$7, 11, 7, 350);
-    			attr_dev(p0, "class", "svelte-12ue0bz");
+    			attr_dev(p0, "class", "svelte-ywmiii");
     			add_location(p0, file$7, 11, 4, 347);
-    			attr_dev(strong1, "class", "highlight svelte-12ue0bz");
+    			attr_dev(strong1, "class", "highlight svelte-ywmiii");
     			add_location(strong1, file$7, 12, 7, 436);
-    			attr_dev(p1, "class", "svelte-12ue0bz");
+    			attr_dev(p1, "class", "svelte-ywmiii");
     			add_location(p1, file$7, 12, 4, 433);
-    			add_location(br0, file$7, 13, 4, 515);
-    			attr_dev(strong2, "class", "highlight-underline svelte-12ue0bz");
-    			add_location(strong2, file$7, 14, 31, 552);
-    			attr_dev(p2, "class", "address-section svelte-12ue0bz");
-    			add_location(p2, file$7, 14, 4, 525);
-    			attr_dev(p3, "class", "svelte-12ue0bz");
-    			add_location(p3, file$7, 15, 4, 627);
-    			attr_dev(p4, "class", "svelte-12ue0bz");
-    			add_location(p4, file$7, 17, 4, 1032);
-    			attr_dev(p5, "class", "svelte-12ue0bz");
-    			add_location(p5, file$7, 19, 4, 1487);
-    			add_location(br1, file$7, 20, 8, 1680);
-    			attr_dev(strong3, "class", "highlight svelte-12ue0bz");
-    			add_location(strong3, file$7, 21, 7, 1693);
-    			attr_dev(p6, "class", "svelte-12ue0bz");
-    			add_location(p6, file$7, 21, 4, 1690);
-    			add_location(br2, file$7, 22, 4, 1865);
-    			attr_dev(strong4, "class", "highlight-underline svelte-12ue0bz");
-    			add_location(strong4, file$7, 23, 31, 1902);
-    			attr_dev(p7, "class", "address-section svelte-12ue0bz");
-    			add_location(p7, file$7, 23, 4, 1875);
-    			attr_dev(p8, "class", "svelte-12ue0bz");
-    			add_location(p8, file$7, 24, 4, 1978);
-    			attr_dev(p9, "class", "svelte-12ue0bz");
-    			add_location(p9, file$7, 25, 4, 2015);
-    			attr_dev(p10, "class", "svelte-12ue0bz");
-    			add_location(p10, file$7, 26, 4, 2302);
-    			attr_dev(p11, "class", "svelte-12ue0bz");
-    			add_location(p11, file$7, 27, 4, 2706);
-    			attr_dev(p12, "class", "svelte-12ue0bz");
-    			add_location(p12, file$7, 29, 4, 3063);
-    			attr_dev(p13, "class", "svelte-12ue0bz");
-    			add_location(p13, file$7, 31, 4, 3436);
-    			add_location(br3, file$7, 33, 17, 4532);
-    			add_location(br4, file$7, 34, 14, 4552);
-    			add_location(br5, file$7, 35, 29, 4587);
-    			add_location(br6, file$7, 36, 50, 4643);
-    			add_location(br7, file$7, 37, 26, 4675);
-    			attr_dev(p14, "class", "svelte-12ue0bz");
-    			add_location(p14, file$7, 33, 4, 4519);
-    			attr_dev(div1, "class", "text-container svelte-12ue0bz");
+    			add_location(br0, file$7, 13, 4, 516);
+    			attr_dev(strong2, "class", "highlight-underline svelte-ywmiii");
+    			add_location(strong2, file$7, 14, 31, 553);
+    			attr_dev(p2, "class", "address-section svelte-ywmiii");
+    			add_location(p2, file$7, 14, 4, 526);
+    			attr_dev(p3, "class", "svelte-ywmiii");
+    			add_location(p3, file$7, 15, 4, 628);
+    			attr_dev(p4, "class", "svelte-ywmiii");
+    			add_location(p4, file$7, 17, 4, 1033);
+    			attr_dev(p5, "class", "svelte-ywmiii");
+    			add_location(p5, file$7, 19, 4, 1488);
+    			add_location(br1, file$7, 20, 8, 1681);
+    			attr_dev(strong3, "class", "highlight svelte-ywmiii");
+    			add_location(strong3, file$7, 21, 7, 1694);
+    			attr_dev(p6, "class", "svelte-ywmiii");
+    			add_location(p6, file$7, 21, 4, 1691);
+    			add_location(br2, file$7, 22, 4, 1866);
+    			attr_dev(strong4, "class", "highlight-underline svelte-ywmiii");
+    			add_location(strong4, file$7, 23, 31, 1903);
+    			attr_dev(p7, "class", "address-section svelte-ywmiii");
+    			add_location(p7, file$7, 23, 4, 1876);
+    			attr_dev(p8, "class", "svelte-ywmiii");
+    			add_location(p8, file$7, 24, 4, 1979);
+    			attr_dev(p9, "class", "svelte-ywmiii");
+    			add_location(p9, file$7, 25, 4, 2016);
+    			attr_dev(p10, "class", "svelte-ywmiii");
+    			add_location(p10, file$7, 26, 4, 2303);
+    			attr_dev(p11, "class", "svelte-ywmiii");
+    			add_location(p11, file$7, 27, 4, 2707);
+    			attr_dev(p12, "class", "svelte-ywmiii");
+    			add_location(p12, file$7, 29, 4, 3064);
+    			attr_dev(p13, "class", "svelte-ywmiii");
+    			add_location(p13, file$7, 31, 4, 3437);
+    			add_location(br3, file$7, 33, 17, 4533);
+    			add_location(br4, file$7, 34, 14, 4553);
+    			add_location(br5, file$7, 35, 29, 4588);
+    			add_location(br6, file$7, 36, 50, 4644);
+    			add_location(br7, file$7, 37, 26, 4676);
+    			attr_dev(p14, "class", "svelte-ywmiii");
+    			add_location(p14, file$7, 33, 4, 4520);
+    			attr_dev(div1, "class", "text-container svelte-ywmiii");
     			add_location(div1, file$7, 10, 2, 313);
-    			attr_dev(div2, "class", "container svelte-12ue0bz");
+    			attr_dev(div2, "class", "container svelte-ywmiii");
     			add_location(div2, file$7, 6, 0, 151);
     		},
     		l: function claim(nodes) {
@@ -6685,7 +6686,7 @@ BOSCO MUN 2024
     			p0.textContent = "Mrs. Rebecca V.T. Karthak";
     			t5 = space();
     			p1 = element("p");
-    			p1.textContent = "Ms. Shayani Dey";
+    			p1.textContent = "Ms. Saayani Dey";
     			t7 = space();
     			h21 = element("h2");
     			h21.textContent = "TECH TEAM";
