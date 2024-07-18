@@ -3059,7 +3059,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (17:4) {#each textContent.split('\n') as paragraph}
+    // (30:4) {#each textContent.split('\n') as paragraph}
     function create_each_block$3(ctx) {
     	let p;
     	let t_value = /*paragraph*/ ctx[2] + "";
@@ -3069,8 +3069,8 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			t = text(t_value);
-    			attr_dev(p, "class", "svelte-4pyetk");
-    			add_location(p, file$9, 17, 6, 843);
+    			attr_dev(p, "class", "svelte-jvx2jz");
+    			add_location(p, file$9, 30, 6, 2382);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -3086,7 +3086,7 @@ var app = (function () {
     		block,
     		id: create_each_block$3.name,
     		type: "each",
-    		source: "(17:4) {#each textContent.split('\\n') as paragraph}",
+    		source: "(30:4) {#each textContent.split('\\n') as paragraph}",
     		ctx
     	});
 
@@ -3123,14 +3123,15 @@ var app = (function () {
 
     			if (!src_url_equal(img.src, img_src_value = /*imageUrl*/ ctx[0])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Image");
-    			attr_dev(img, "class", "svelte-4pyetk");
-    			add_location(img, file$9, 13, 4, 674);
-    			attr_dev(div0, "class", "image-container svelte-4pyetk");
-    			add_location(div0, file$9, 12, 2, 639);
-    			attr_dev(div1, "class", "text-container svelte-4pyetk");
-    			add_location(div1, file$9, 15, 2, 757);
-    			attr_dev(div2, "class", "container svelte-4pyetk");
-    			add_location(div2, file$9, 11, 0, 612);
+    			attr_dev(img, "loading", "lazy");
+    			attr_dev(img, "class", "svelte-jvx2jz");
+    			add_location(img, file$9, 26, 4, 2198);
+    			attr_dev(div0, "class", "image-container svelte-jvx2jz");
+    			add_location(div0, file$9, 25, 2, 2163);
+    			attr_dev(div1, "class", "text-container svelte-jvx2jz");
+    			add_location(div1, file$9, 28, 2, 2296);
+    			attr_dev(div2, "class", "container svelte-jvx2jz");
+    			add_location(div2, file$9, 24, 0, 2136);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3202,14 +3203,27 @@ var app = (function () {
     function instance$f($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('About2', slots, []);
-    	let imageUrl = '/about1.jpeg';
+    	let imageUrl = '/devansh.jpg';
 
-    	let textContent = `
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    `.repeat(10);
+    	let textContent = `Greetings delegates and Faculty Advisors,
+
+Welcome to the 9th edition of Bosco Model United Nations. Today, as we gather under the theme "From Chaos to Cohesion: A Global Pursuit of the 20th Century and Beyond," we celebrate the diverse participation of schools from both within and outside the city of Kolkata. This remarkable assembly underscores our shared commitment to understanding and addressing the complexities of our world.
+
+From the depths of adversity, humanity has emerged stronger, continually adapting and transforming to meet an array of political, social, and economic challenges.
+
+As the future leaders of our world, the best test of your abilities and ethics will be to step into the shoes of the great statesmen and diplomats of the past. In doing so, you will address the precarious situations they once faced and understand the complex tapestry of history. The committees you will participate in mirror significant historical and contemporary issues that demand thoughtful deliberation and decisive action.
+
+The challenges we face today are indeed daunting. Economic disparities persist, political divisions breed hostility, and personal ambitions often undermine global cooperation. Yet, as President John F. Kennedy aptly said,“Great crises produce great men and great deeds of courage.” It is in the crucible of such crises that true leaders prevail, leaving their indelible marks on history, remembered as those who stood tall and believed in the face of Adversity.
+
+At Bosco MUN, we aspire to inspire you to extend your engagement beyond the committee rooms. Let this conference be a catalyst for change, igniting your passion to make a tangible impact on the world. We have unwavering faith in your ability to rise above challenges and contribute to the reawakening of a world that thrives on cooperation, compassion, and justice.Together, let us transform chaos into cohesion.
+
+
+Regards,
+Devansh Agarwal,
+Secretary General,
+The Ninth Secretariat,
+BOSCO MUN 2024.
+`;
 
     	const writable_props = [];
 
@@ -3957,7 +3971,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (21:2) {#each items as item}
+    // (23:2) {#each items as item}
     function create_each_block(ctx) {
     	let div;
     	let img;
@@ -3977,10 +3991,10 @@ var app = (function () {
     			t = space();
     			if (!src_url_equal(img.src, img_src_value = /*item*/ ctx[2].img)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Study Guide Poster");
-    			attr_dev(img, "class", "svelte-130e96y");
-    			add_location(img, file$6, 22, 6, 661);
-    			attr_dev(div, "class", "item svelte-130e96y");
-    			add_location(div, file$6, 21, 4, 596);
+    			attr_dev(img, "class", "svelte-1ivmm3w");
+    			add_location(img, file$6, 24, 6, 1151);
+    			attr_dev(div, "class", "item svelte-1ivmm3w");
+    			add_location(div, file$6, 23, 4, 1086);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -4006,7 +4020,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(21:2) {#each items as item}",
+    		source: "(23:2) {#each items as item}",
     		ctx
     	});
 
@@ -4036,10 +4050,10 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h1, "class", "gallery-heading svelte-130e96y");
-    			add_location(h1, file$6, 18, 0, 497);
-    			attr_dev(div, "class", "gallery svelte-130e96y");
-    			add_location(div, file$6, 19, 0, 544);
+    			attr_dev(h1, "class", "gallery-heading svelte-1ivmm3w");
+    			add_location(h1, file$6, 20, 0, 987);
+    			attr_dev(div, "class", "gallery svelte-1ivmm3w");
+    			add_location(div, file$6, 21, 0, 1034);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4104,8 +4118,10 @@ var app = (function () {
     function downloadPDF(pdfUrl) {
     	const link = document.createElement('a');
     	link.href = pdfUrl;
-    	link.download = pdfUrl.split('/').pop();
+    	link.setAttribute('download', '');
+    	document.body.appendChild(link);
     	link.click();
+    	document.body.removeChild(link);
     }
 
     function instance$6($$self, $$props, $$invalidate) {
@@ -4113,12 +4129,30 @@ var app = (function () {
     	validate_slots('Resources', slots, []);
 
     	let items = [
-    		{ img: '/UNSC.png', pdf: '/trial.pdf' },
-    		{ img: '/AIPPM.png', pdf: '/trial.pdf' },
-    		{ img: '/JSC.png', pdf: '/trial.pdf' },
-    		{ img: '/ASEAN.png', pdf: '/trial.pdf' },
-    		{ img: '/AL.png', pdf: '/trial.pdf' },
-    		{ img: '/IPC.png', pdf: '/trial.pdf' }
+    		{
+    			img: '/UNSC.png',
+    			pdf: 'https://drive.google.com/uc?export=download&id=1iyCeAbif4aY5txcP4F4cyOI9npN7f8GX'
+    		},
+    		{
+    			img: '/AIPPM.png',
+    			pdf: 'https://drive.google.com/uc?export=download&id=1rrtXjT420a_9WlSqoKHnsj7Md6OADsaG'
+    		},
+    		{
+    			img: '/JSC.png',
+    			pdf: 'https://drive.google.com/uc?export=download&id=1YxPwlo95U_AdFlxO_y7oCVDU2NzZJVcA'
+    		},
+    		{
+    			img: '/ASEAN.png',
+    			pdf: 'https://drive.google.com/uc?export=download&id=1_8U5n8iNkc8TyouZjFQjmvZzK0MULLJM'
+    		},
+    		{
+    			img: '/AL.png',
+    			pdf: 'https://drive.google.com/uc?export=download&id=1et6XvQqgpvq4nZAiD3QHllbxAP8GyEIe'
+    		},
+    		{
+    			img: '/IPC.png',
+    			pdf: 'https://drive.google.com/uc?export=download&id=11iBZkCEPvRYjlEk4sqweITam1pBVXQuc'
+    		}
     	];
 
     	const writable_props = [];
