@@ -106,7 +106,7 @@ https://github.com/user-attachments/assets/a5ed5293-674a-4717-9734-9b90b652b20d
 - Updated all the content
 - Added a footer to Our Team page
 - Made website responsive to all screens so it covers the same amout of space in every size of screen
-- Bought domain, boscomun.in
+- Bought domain, www.boscomun.in
 - Uploaded the zip in cPanel
 
 **Day 7 (20/7/24):**
