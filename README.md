@@ -160,3 +160,20 @@ They give information about the comittee, inclusing agenda, committee logo, EB a
   - Arab League
   - International Press Corps
 
+**Resources Page:** <br>
+The Resources page for Bosco MUN 2024 is crucial for participants, providing them with the necessary materials to prepare for the event.
+The central section of the page is organized into a grid of resource cards. Each card is linked to downloadable PDFs. <br>
+It includes PDFs of:
+  - Study Guides
+  - Conference Details
+  - Portfolio Guides
+  - Press Releases
+![WhatsApp Image 2024-07-26 at 10 35 20_fd6ad4b8](https://github.com/user-attachments/assets/5c08727c-c7de-43ef-b593-9ffbff3f2893)
+
+**Individual Registration Page:** <br>
+The individual registration page for the Bosco MUN 2024 includes an iframe which contains a registration form for interested delegates to fill out.
+By embedding the registration form or related content, users have a seamless experience where they can complete their registration within the same page.
+![WhatsApp Image 2024-07-17 at 09 56 42_492d4919](https://github.com/user-attachments/assets/77810f62-5cab-4c2d-aa0b-4d8f46854b81)
+
+**Our Team Page:** <br>
+It provides details about the organizing team, including the teachers, the secretariat, the tech team and the executive board members of the various committees.
