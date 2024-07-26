@@ -177,3 +177,13 @@ By embedding the registration form or related content, users have a seamless exp
 
 **Our Team Page:** <br>
 It provides details about the organizing team, including the teachers, the secretariat, the tech team and the executive board members of the various committees.
+
+**Footer:** <br>
+The footer provides the contact information for DBPC. It is neatly divided into three sections: Contact us, Connect On, and Locate us.
+
+**Custom Cursor:** <br>
+Gavel Cursor is a custom-designed cursor that adds a touch of fun and interactivity to your browsing experience. Shaped like a gavel, this cursor isn't just for show. When you click on any clickable element, the gavel bangs down.
+
+https://github.com/user-attachments/assets/b4e7ee12-d66e-401f-af75-38cb265f29fc
+
+
