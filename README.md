@@ -9,10 +9,6 @@
 
 ## Purpose
 
-## How to Use
-
-
-
 ## Tools and Technologies Used
 
 ### Hardware
