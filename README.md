@@ -125,4 +125,4 @@ https://github.com/user-attachments/assets/a5ed5293-674a-4717-9734-9b90b652b20d
 
 **Day 10(24/7/24)**
 - Made minor changes to Resources
-- Deployed
+
