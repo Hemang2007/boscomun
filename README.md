@@ -86,11 +86,11 @@ https://github.com/user-attachments/assets/0959dc2c-794f-4c19-af2d-21b38bec342e
 
 
 **Day 4 (14/7/24):**
-- Added Individual Registration button in phone on the home page
+- Added Individual Registration button in phone on the home page <br>
 ![WhatsApp Image 2024-07-14 at 13 10 25_ae443ef5](https://github.com/user-attachments/assets/77ac2b68-bcc7-47fd-b851-659a806d7ea4)
 - Added a Custom Cusor, like a gavel which bangs on clicking
 
-
+  
 https://github.com/user-attachments/assets/a5ed5293-674a-4717-9734-9b90b652b20d
 
 
@@ -125,4 +125,38 @@ https://github.com/user-attachments/assets/a5ed5293-674a-4717-9734-9b90b652b20d
 
 **Day 10(24/7/24)**
 - Made minor changes to Resources
+
+## Features
+
+**Home Page:** <br>
+The home page for Bosco MUN 2024, features a sleek and modern design with a dominant dark background that exudes professionalism and sophistication. The central focus of the page is the event logo, a countdown timer and the tagline of the event, prominently displayed to capture the visitor's attention.
+![WhatsApp Image 2024-07-26 at 09 26 04_5fa590ac](https://github.com/user-attachments/assets/92797c7d-e74d-4212-98d6-5489405ec5bf)
+
+**Navigation Bar:** <br>
+The navigation bar is straightforward and intuitive, ensuring that visitors can quickly access the information they need. The use of dropdown menus for "About" and "Committees" helps in keeping the navigation bar uncluttered while still providing easy access to detailed information. <br>
+Menu Items : 
+  - Home
+  - About
+  - Committees
+  - Resources
+  - Individual Registration
+  - Our Team
+![navbar](https://github.com/user-attachments/assets/8131edae-1c64-4544-91fe-a4f754b051d9)
+![WhatsApp Image 2024-07-25 at 14 16 05_14bb6b53](https://github.com/user-attachments/assets/1b4c5bff-8e07-4523-aedc-ae9a73f93fcf)
+
+**About Pages:** <br>
+It is a dropdown on the nav bar containing the following pages: 
+  - About BoscoMUN - An introduction to BoscoMUN
+  - Rev. Fr. Rector and Principal's Address - A message from the Rector and Principal of DBPC, addressing the event.
+  - Secretary General's Message - A message from the Secretary General of the event.
+  - Deputy Secretary General's Message - A message from the Deputy Secretary Generals of the event.
+
+**Committee Pages:** <br>
+They give information about the comittee, inclusing agenda, committee logo, EB and Chairperson's Address. It is a dropdown on the nav bar containing the following pages:
+  - United Nations Security Council
+  - All India Political Parties Meet
+  - Joseph Stalin's Cabinet
+  - Association of Southeast Asian Nations
+  - Arab League
+  - International Press Corps
 
