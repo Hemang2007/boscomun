@@ -2,7 +2,7 @@
 
 ## Duration
 **Start Date:** 11/07/2024  
-**End Date:** To be determined
+**End Date:** 09/08/2024
 
 ## Team Members
 - **Hemang Domadia**
@@ -125,6 +125,9 @@ https://github.com/user-attachments/assets/a5ed5293-674a-4717-9734-9b90b652b20d
 **Day 10(24/7/24)**
 - Made minor changes to Resources
 
+**Day 11(7/8/24)**
+- Added a chatbot to the website
+  
 ## Features
 
 **Home Page:** <br>
@@ -185,4 +188,5 @@ Gavel Cursor is a custom-designed cursor that adds a touch of fun and interactiv
 
 https://github.com/user-attachments/assets/b4e7ee12-d66e-401f-af75-38cb265f29fc
 
-
+**Chatbot:** <br>
+The BoscoMUN chatbot, one of the attractions of the website, was made to make it easier for users to know about the conference and about MUN in general.
